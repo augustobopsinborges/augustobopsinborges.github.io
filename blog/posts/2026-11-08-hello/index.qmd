@@ -20,5 +20,5 @@ and the code in plain sight.
 
 Posts are written in [Quarto](https://quarto.org), so mathematics renders with KaTeX
 and code blocks can be executed when the page is built. Everything is in the
-[repository](https://github.com/augustobopsinborges/aborges.github.io); corrections are
+[repository](https://github.com/augustobopsinborges/augustobopsinborges.github.io); corrections are
 welcome as issues or pull requests.

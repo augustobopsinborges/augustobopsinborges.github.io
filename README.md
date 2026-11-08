@@ -1,4 +1,4 @@
-# aborges.github.io
+# augustobopsinborges.github.io
 
 Personal and professional website of Augusto Bopsin Borges, built with
 [Quarto](https://quarto.org): research pages in the spirit of

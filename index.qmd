@@ -1,9 +1,8 @@
 ---
-title: "Augusto Bopsin Borges"
+pagetitle: "Augusto Bopsin Borges"
 description-meta: >
   Civil engineer and researcher at PPGEC / UFRGS — micromechanics and poromechanics
   of jointed rock media, double porosity, finite element computation.
-title-block-style: none
 page-layout: full
 toc: false
 listing:

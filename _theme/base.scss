@@ -136,11 +136,9 @@ a {
 }
 
 .hero-social {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem 1.2rem;
   font-size: 0.95rem;
 
+  p { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin-bottom: 0; }
   a { color: var(--ab-muted); }
   a:hover { color: var(--ab-accent); text-decoration: none; }
   .bi { margin-right: 0.3rem; }
@@ -180,9 +178,12 @@ a {
 // --- Cards -----------------------------------------------------------------
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
   margin: 1.5rem 0;
+
+  @media (max-width: 575.98px) { grid-template-columns: 1fr; }
+  @media (min-width: 1200px) { grid-template-columns: repeat(4, 1fr); }
 }
 
 .ab-card {
@@ -219,8 +220,7 @@ a {
 
 // --- Publications ---------------------------------------------------------
 .pub-list {
-  list-style: none;
-  padding-left: 0;
+  ul { list-style: none; padding-left: 0; margin-bottom: 0; }
 
   li {
     padding: 0.8rem 0 0.8rem 1rem;

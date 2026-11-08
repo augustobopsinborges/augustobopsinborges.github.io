@@ -9,8 +9,8 @@ lang: en
 website:
   title: "Augusto Bopsin Borges"
   description: "Civil engineer and researcher — micromechanics and poromechanics of jointed rock media, finite element computation."
-  site-url: https://aborges.github.io
-  repo-url: https://github.com/augustobopsinborges/aborges.github.io
+  site-url: https://augustobopsinborges.github.io
+  repo-url: https://github.com/augustobopsinborges/augustobopsinborges.github.io
   favicon: images/favicon.svg
   open-graph: true
   search:

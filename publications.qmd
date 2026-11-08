@@ -20,8 +20,7 @@ preparation.
 
 ::: {.pub-list}
 - [Formulação micromecânica do comportamento poroelástico de meios rochosos fraturados e implementação computacional]{.pub-title}
-  **Borges, A. B.** [Doctoral thesis, Graduate Program in Civil Engineering (PPGEC), Federal University of Rio Grande do Sul, Porto Alegre. Advisor: Prof. Samir Maghous.]{.pub-venue} [In preparation]{.pub-status}
-  [English title: *Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation*.]{.pub-venue}
+  **Borges, A. B.** [Doctoral thesis, Graduate Program in Civil Engineering (PPGEC), Federal University of Rio Grande do Sul, Porto Alegre. Advisor: Prof. Samir Maghous. English title: *Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation*.]{.pub-venue} [In preparation]{.pub-status}
 :::
 
 <!--

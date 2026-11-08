@@ -38,4 +38,4 @@ Built with [Quarto](https://quarto.org) and hosted on GitHub Pages. Its layout i
 inspired by the sites of
 [Jean-François Barthélémy](https://jfbarthelemy.github.io) and
 [Sébastien Brisard](https://sbrisard.github.io). The source is
-[on GitHub](https://github.com/augustobopsinborges/aborges.github.io).
+[on GitHub](https://github.com/augustobopsinborges/augustobopsinborges.github.io).
