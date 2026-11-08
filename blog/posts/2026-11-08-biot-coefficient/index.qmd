@@ -25,15 +25,15 @@ $$ {#eq-state}
 where $\sigma_m = \tfrac13\,\mathrm{tr}\,\boldsymbol{\sigma}$ is the mean stress,
 $\varepsilon_v = \mathrm{tr}\,\boldsymbol{\varepsilon}$ the volumetric strain and
 $\varphi$ the Lagrangian porosity (pore volume per unit *reference* volume). The
-same coefficient $b$ appears in both equations: this is Maxwell symmetry, and it follows
+same coefficient $b$ appears in both equations. This is Maxwell symmetry, and it follows
 from the existence of a free energy for the skeleton.
 
 Two constants, $b$ and $N$, remain to be identified. One experiment does it.
 
 ## The unjacketed test
 
-Let the solid phase be homogeneous and isotropic, with bulk modulus $K_s$. Apply the
-same pressure $p$ on the outer boundary of the sample and inside the pores — the
+Let the solid phase be homogeneous and isotropic, with bulk modulus $k_s$. Apply the
+same pressure $p$ on the outer boundary of the sample and inside the pores - the
 *unjacketed* test, since no membrane separates the two. The solid is then loaded by
 $p$ on its entire boundary, so the stress field $\boldsymbol{\sigma} = -p\,\mathbf{1}$
 is a uniform solution of the equilibrium problem in the solid phase. Everything
@@ -72,12 +72,12 @@ modulus and the porosity.
   Terzaghi's effective stress $\sigma_m + p$ is recovered. This is why soil mechanics
   can ignore $b$ altogether.
 - **Rocks.** The skeleton of a low-porosity rock is not much softer than its minerals,
-  and $b$ sits well below one — around $0.45$ for Westerly granite, for instance. The
+  and $b$ sits well below one (around $0.45$ for Westerly granite, for instance). The
   pore pressure then carries less weight than Terzaghi's rule predicts, which matters
   for the stress state around a deep tunnel or a well.
 - **Bounds.** Since $K \le K_s$ and $b \ge \varphi_0$ (the skeleton cannot be stiffer
   than its solid, and $1/N$ cannot be negative), $\varphi_0 \le b \le 1$.
 
-In a jointed rock mass there are two porous systems — the pores of the matrix and the
-network of joints — and the argument above has to be run twice, with the exchange of
+In a jointed rock mass there may be considered two porous systems (the pores of the matrix and the
+network of joints) and the argument above has to be run twice, with the exchange of
 fluid between the two systems added. That is a post for another day.
