@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/2026-11-08-hello/index.html",
+      "/blog/posts/2026-11-08-biot-coefficient/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/2026-11-08-hello/index.html",
+      "/blog/posts/2026-11-08-biot-coefficient/index.html"
+    ]
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Augusto Bopsin Borges",
+    "section": "",
+    "text": "Augusto Bopsin Borges Civil engineer · PhD candidate, PPGEC / UFRGS\nI work on the mechanics of porous and fractured rock: micromechanical models for the poroelastic behavior of jointed rock masses, their coupling with fluid flow, and their implementation in finite element codes for problems at the scale of tunnels and dams. I am a doctoral candidate at the Graduate Program in Civil Engineering (PPGEC) of the Federal University of Rio Grande do Sul (UFRGS), under the supervision of Prof. Samir Maghous.\n\nResearch Publications Software Blog\n\n\nGitHub Email"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Augusto Bopsin Borges",
+    "section": "Research interests",
+    "text": "Research interests\n\n\nMicromechanics of jointed rock\nHomogenization of rock masses crossed by families of joints: long joints as interfaces, short joints through Eshelby-based schemes, and the resulting double-porosity poroelastic coefficients.\n\n\nCoupled poromechanics\nExtensions of the double-porosity formulation to time-dependent, thermal and chemical couplings, to partially saturated media and to elastoplastic constituents.\n\n\nFinite element computation\nThree-dimensional finite element codes for Biot poroelasticity with one or two porous systems, from the variational formulation to the solver and the pre- and post-processing chain.\n\n\nField-scale applications\nDeep tunnels and reservoirs in fractured rock masses, where drainage, settlement and pressure changes are governed by the interplay between joints and matrix.\n\n\n\nMore on the research →"
+  },
+  {
+    "objectID": "index.html#from-the-blog",
+    "href": "index.html#from-the-blog",
+    "title": "Augusto Bopsin Borges",
+    "section": "From the blog",
+    "text": "From the blog\nNotes on poromechanics, numerical methods and the tools around them. Every post is listed on the blog page, which also carries an RSS feed.\n\n\n\n\n\nWhy this site\n\n\n\nmeta\n\n\n\n\nWhat to expect here: research pages that change slowly, and a blog of short notes that change often.\n\n\n\n\n\n\nNov 8, 2026\n\n1 min\n\n\n\n\n\n\nThe Biot coefficient in one thought experiment\n\n\n\nporomechanics\n\nderivations\n\n\n\n\nWhy b = 1 − K/Kₛ: the unjacketed test, the two state equations of linear poroelasticity, and what the result says about rocks versus soils.\n\n\n\n\n\n\nNov 8, 2026\n\n3 min\n\n\n\n\nNo matching items\n\n\nAll posts →"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Augusto Bopsin Borges",
+    "section": "Recent publications",
+    "text": "Recent publications\n\n\nA micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium Borges, A. B., Maghous, S. Submitted to Computers and Geotechnics, 2026. Under review\nMicromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation Borges, A. B. Doctoral thesis, PPGEC / UFRGS, Porto Alegre. Advisor: Prof. Samir Maghous. In preparation\n\n\n\nAll publications →"
+  },
+  {
+    "objectID": "index.html#software",
+    "href": "index.html#software",
+    "title": "Augusto Bopsin Borges",
+    "section": "Software",
+    "text": "Software\nI develop finite element programs for poroelastic analysis — GEOMECH3D for single-porosity Biot media and GEOMECH3D-DP for the double-porosity formulation — together with their GiD® pre- and post-processing problem types, and GeoMicroLab, a Python library for implementing and verifying micromechanical models of porous and fractured materials.\n\nBrowse the software →"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "A BibTeX file with every entry on this page: publications.bib."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal articles",
+    "text": "Journal articles\n\n\nA micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium Borges, A. B., Maghous, S. Submitted to Computers and Geotechnics, 2026. Under review\n\n\nCompanion papers extending the formulation to time-dependent, thermal and chemical couplings, to partially saturated media and to elastoplastic constituents are in preparation."
+  },
+  {
+    "objectID": "publications.html#thesis",
+    "href": "publications.html#thesis",
+    "title": "Publications",
+    "section": "Thesis",
+    "text": "Thesis\n\n\nFormulação micromecânica do comportamento poroelástico de meios rochosos fraturados e implementação computacional Borges, A. B. Doctoral thesis, Graduate Program in Civil Engineering (PPGEC), Federal University of Rio Grande do Sul, Porto Alegre. Advisor: Prof. Samir Maghous. English title: Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation. In preparation"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a civil engineer and a doctoral candidate at the Graduate Program in Civil Engineering (PPGEC) of the Federal University of Rio Grande do Sul (UFRGS), in Porto Alegre, Brazil, where I work under the supervision of Prof. Samir Maghous on the micromechanics and poromechanics of jointed rock media.\nMy work combines three things I enjoy in equal measure: deriving models from the mechanics of the constituents, implementing them in finite element codes that others can use, and confronting them with what is measured in the field."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\n\n\nDoctoral candidate in Civil Engineering, PPGEC / UFRGS — thesis Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation, advised by Prof. Samir Maghous."
+  },
+  {
+    "objectID": "about.html#elsewhere",
+    "href": "about.html#elsewhere",
+    "title": "About",
+    "section": "Elsewhere",
+    "text": "Elsewhere\n\nGitHub — code and documents.\nBlog — notes on poromechanics, numerical methods and tools."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\naugustobopsinborges@gmail.com"
+  },
+  {
+    "objectID": "about.html#about-this-site",
+    "href": "about.html#about-this-site",
+    "title": "About",
+    "section": "About this site",
+    "text": "About this site\nBuilt with Quarto and hosted on GitHub Pages. Its layout is inspired by the sites of Jean-François Barthélémy and Sébastien Brisard. The source is on GitHub."
+  },
+  {
+    "objectID": "blog/posts/2026-11-08-biot-coefficient/index.html",
+    "href": "blog/posts/2026-11-08-biot-coefficient/index.html",
+    "title": "The Biot coefficient in one thought experiment",
+    "section": "",
+    "text": "Linear isotropic poroelasticity needs four constants: the drained bulk modulus K, the shear modulus \\mu, the Biot coefficient b and the Biot modulus N. The first two are those of elasticity. The last two tell how the pore pressure enters the problem, and textbooks tend to state their expressions rather than derive them. Here is the shortest derivation I know, following Coussy’s presentation."
+  },
+  {
+    "objectID": "blog/posts/2026-11-08-biot-coefficient/index.html#the-state-equations",
+    "href": "blog/posts/2026-11-08-biot-coefficient/index.html#the-state-equations",
+    "title": "The Biot coefficient in one thought experiment",
+    "section": "The state equations",
+    "text": "The state equations\nTake a porous solid with connected porosity \\varphi_0 in its reference state and a pore pressure p. The volumetric state equations of linear isotropic poroelasticity read\n\n\\sigma_m = K\\,\\varepsilon_v - b\\,p, \\qquad\n\\varphi - \\varphi_0 = b\\,\\varepsilon_v + \\frac{p}{N},\n\\tag{1}\nwhere \\sigma_m = \\tfrac13\\,\\mathrm{tr}\\,\\boldsymbol{\\sigma} is the mean stress, \\varepsilon_v = \\mathrm{tr}\\,\\boldsymbol{\\varepsilon} the volumetric strain and \\varphi the Lagrangian porosity (pore volume per unit reference volume). The same coefficient b appears in both equations: this is Maxwell symmetry, and it follows from the existence of a free energy for the skeleton.\nTwo constants, b and N, remain to be identified. One experiment does it."
+  },
+  {
+    "objectID": "blog/posts/2026-11-08-biot-coefficient/index.html#the-unjacketed-test",
+    "href": "blog/posts/2026-11-08-biot-coefficient/index.html#the-unjacketed-test",
+    "title": "The Biot coefficient in one thought experiment",
+    "section": "The unjacketed test",
+    "text": "The unjacketed test\nLet the solid phase be homogeneous and isotropic, with bulk modulus K_s. Apply the same pressure p on the outer boundary of the sample and inside the pores — the unjacketed test, since no membrane separates the two. The solid is then loaded by p on its entire boundary, so the stress field \\boldsymbol{\\sigma} = -p\\,\\mathbf{1} is a uniform solution of the equilibrium problem in the solid phase. Everything contracts uniformly:\n\n\\varepsilon_v = -\\frac{p}{K_s}, \\qquad\n\\varphi - \\varphi_0 = \\varphi_0\\,\\varepsilon_v = -\\varphi_0\\,\\frac{p}{K_s},\n\nthe second relation because a uniform dilatation scales every volume, pores included, by the same factor. The macroscopic mean stress is \\sigma_m = -p.\nInsert these into Equation 1. The first equation gives\n\n-p = -\\frac{K}{K_s}\\,p - b\\,p\n\\quad\\Longrightarrow\\quad\nb = 1 - \\frac{K}{K_s},\n\nand the second,\n\n-\\varphi_0\\,\\frac{p}{K_s} = -b\\,\\frac{p}{K_s} + \\frac{p}{N}\n\\quad\\Longrightarrow\\quad\n\\frac{1}{N} = \\frac{b - \\varphi_0}{K_s}.\n\nThat is all. Both poroelastic constants follow from the drained modulus, the solid modulus and the porosity."
+  },
+  {
+    "objectID": "blog/posts/2026-11-08-biot-coefficient/index.html#what-the-result-says",
+    "href": "blog/posts/2026-11-08-biot-coefficient/index.html#what-the-result-says",
+    "title": "The Biot coefficient in one thought experiment",
+    "section": "What the result says",
+    "text": "What the result says\n\nSoils. The grains are much stiffer than the skeleton, K \\ll K_s, so b \\to 1: Terzaghi’s effective stress \\sigma_m + p is recovered. This is why soil mechanics can ignore b altogether.\nRocks. The skeleton of a low-porosity rock is not much softer than its minerals, and b sits well below one — around 0.45 for Westerly granite, for instance. The pore pressure then carries less weight than Terzaghi’s rule predicts, which matters for the stress state around a deep tunnel or a well.\nBounds. Since K \\le K_s and b \\ge \\varphi_0 (the skeleton cannot be stiffer than its solid, and 1/N cannot be negative), \\varphi_0 \\le b \\le 1.\n\nIn a jointed rock mass there are two porous systems — the pores of the matrix and the network of joints — and the argument above has to be run twice, with the exchange of fluid between the two systems added. That is a post for another day."
+  },
+  {
+    "objectID": "blog/posts/2026-11-08-hello/index.html",
+    "href": "blog/posts/2026-11-08-hello/index.html",
+    "title": "Why this site",
+    "section": "",
+    "text": "This site has two halves.\nThe first is the set of pages you reach from the top bar — research, publications, software. They describe what I work on and change slowly, when a paper is accepted or a program gains a feature.\nThe second is this blog. It is for the things that do not fit in a paper but are worth writing down once, carefully: a derivation that every textbook skips a step of, a numerical detail that cost an afternoon, a comparison between two ways of doing the same computation. The model is the kind of post Sébastien Brisard writes on his blog: short, self-contained, with the equations and the code in plain sight.\nPosts are written in Quarto, so mathematics renders with KaTeX and code blocks can be executed when the page is built. Everything is in the repository; corrections are welcome as issues or pull requests.\n\n\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Why this site\n\n\n\nmeta\n\n\n\n\nWhat to expect here: research pages that change slowly, and a blog of short notes that change often.\n\n\n\n\n\n\nNov 8, 2026\n\n1 min\n\n\n\n\n\n\nThe Biot coefficient in one thought experiment\n\n\n\nporomechanics\n\nderivations\n\n\n\n\nWhy b = 1 − K/Kₛ: the unjacketed test, the two state equations of linear poroelasticity, and what the result says about rocks versus soils.\n\n\n\n\n\n\nNov 8, 2026\n\n3 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Rock masses are rarely continuous. They are cut by families of joints — fractures that are both weaker and far more permeable than the intact rock between them — so that deformation and fluid flow happen in two coupled systems: the pores of the rock matrix and the network of joints. My research builds continuum models of this double-porosity behavior from the mechanics of the constituents, and puts them to work in finite element computations at the scale of engineering structures."
+  },
+  {
+    "objectID": "research.html#micromechanics-of-jointed-rock",
+    "href": "research.html#micromechanics-of-jointed-rock",
+    "title": "Research",
+    "section": "Micromechanics of jointed rock",
+    "text": "Micromechanics of jointed rock\nThe starting point is a homogenization approach. Long joints are treated as interfaces whose normal and tangential stiffnesses, spacing and orientation enter the effective properties of the rock mass; short joints are handled with Eshelby-based schemes of the Mori–Tanaka type. The result is a set of poroelastic coefficients — drained stiffness, two Biot tensors, two Biot moduli and a coupling modulus — for a double-porosity medium in which matrix and joints exchange fluid.\nThe formulation is the subject of my doctoral thesis, supervised by Prof. Samir Maghous at PPGEC / UFRGS, and of a paper currently under review (see Publications)."
+  },
+  {
+    "objectID": "research.html#coupled-poromechanics",
+    "href": "research.html#coupled-poromechanics",
+    "title": "Research",
+    "section": "Coupled poromechanics",
+    "text": "Coupled poromechanics\nThe same micromechanical structure lends itself to richer constitutive behavior. Ongoing work extends the double-porosity formulation to\n\ntime-dependent joints (poroviscoelasticity, hereditary coefficients and aging),\nthermal and chemical couplings (thermoporoelasticity and chemoporoelasticity, including osmotic effects),\npartially saturated media, with two fluids in each porous system,\nelastoplastic constituents, with the two effective stresses that the two porous systems call for."
+  },
+  {
+    "objectID": "research.html#finite-element-computation",
+    "href": "research.html#finite-element-computation",
+    "title": "Research",
+    "section": "Finite element computation",
+    "text": "Finite element computation\nModels are only useful once they can be computed. I develop and maintain GEOMECH3D, a three-dimensional finite element program for Biot poroelasticity, and GEOMECH3D-DP, its double-porosity counterpart, which solves the symmetric indefinite system of the coupled displacement–pressure–pressure problem. Both are driven from GiD® through dedicated problem types."
+  },
+  {
+    "objectID": "research.html#field-scale-applications",
+    "href": "research.html#field-scale-applications",
+    "title": "Research",
+    "section": "Field-scale applications",
+    "text": "Field-scale applications\nThe models are confronted with documented case studies of deep tunnels in fractured rock masses, where the drainage of the rock mass by the excavation induces surface settlements and long-term changes in pore pressure. These comparisons test whether the coefficients obtained from field data for the joints and the matrix reproduce the observed behavior with both mechanisms acting in a single continuum."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "The programs below grew out of the research described on the Research page. They are written to be verified: every new capability comes with a test case, and the double-porosity code reproduces the single-porosity one in the limit case."
+  },
+  {
+    "objectID": "software.html#geomech3d",
+    "href": "software.html#geomech3d",
+    "title": "Software",
+    "section": "GEOMECH3D",
+    "text": "GEOMECH3D\nThree-dimensional finite element program for coupled poroelastic analysis — solid deformation and fluid flow in the framework of Biot’s theory. Written in Fortran, in development since 2021. It reads models prepared with the GiD® problem type AugustoPoroelastico.gid and writes results back to GiD® for post-processing.\nRepository →"
+  },
+  {
+    "objectID": "software.html#geomech3d-dp",
+    "href": "software.html#geomech3d-dp",
+    "title": "Software",
+    "section": "GEOMECH3D-DP",
+    "text": "GEOMECH3D-DP\nFinite element program for double-porosity poroelasticity: Biot’s theory extended to two porous systems, the rock matrix and the network of joints, with fluid exchange between them. The coupled displacement–pressure–pressure problem leads to a symmetric indefinite system, solved in three dimensions. Developed separately from GEOMECH3D so that it could be verified independently; its companion problem type is GEOMECH3D-DP.gid.\nRepository →"
+  },
+  {
+    "objectID": "software.html#geomicrolab",
+    "href": "software.html#geomicrolab",
+    "title": "Software",
+    "section": "GeoMicroLab",
+    "text": "GeoMicroLab\nPython library to implement, audit, verify and compare micromechanical models of porous materials and fractured rock. Every formulation states its hypotheses, documents its equations and declares its limitations, and the documentation distinguishes, line by line, what is implemented, tested, verified mathematically and validated against experiments."
+  }
+]

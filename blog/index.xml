@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Augusto Bopsin Borges</title>
+<link>https://augustobopsinborges.github.io/blog/</link>
+<atom:link href="https://augustobopsinborges.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Civil engineer and researcher — micromechanics and poromechanics of jointed rock media, finite element computation.</description>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Why this site</title>
+  <dc:creator>Augusto Bopsin Borges</dc:creator>
+  <link>https://augustobopsinborges.github.io/blog/posts/2026-11-08-hello/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This site has two halves.</p>
+<p>The first is the set of pages you reach from the top bar — <a href="../../../research.html">research</a>, <a href="../../../publications.html">publications</a>, <a href="../../../software.html">software</a>. They describe what I work on and change slowly, when a paper is accepted or a program gains a feature.</p>
+<p>The second is this blog. It is for the things that do not fit in a paper but are worth writing down once, carefully: a derivation that every textbook skips a step of, a numerical detail that cost an afternoon, a comparison between two ways of doing the same computation. The model is the kind of post Sébastien Brisard writes on <a href="https://sbrisard.github.io">his blog</a>: short, self-contained, with the equations and the code in plain sight.</p>
+<p>Posts are written in <a href="https://quarto.org">Quarto</a>, so mathematics renders with KaTeX and code blocks can be executed when the page is built. Everything is in the <a href="https://github.com/augustobopsinborges/augustobopsinborges.github.io">repository</a>; corrections are welcome as issues or pull requests.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div> ]]></description>
+  <category>meta</category>
+  <guid>https://augustobopsinborges.github.io/blog/posts/2026-11-08-hello/</guid>
+  <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Biot coefficient in one thought experiment</title>
+  <dc:creator>Augusto Bopsin Borges</dc:creator>
+  <link>https://augustobopsinborges.github.io/blog/posts/2026-11-08-biot-coefficient/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Linear isotropic poroelasticity needs four constants: the drained bulk modulus <img src="https://latex.codecogs.com/png.latex?K">, the shear modulus <img src="https://latex.codecogs.com/png.latex?%5Cmu">, the Biot coefficient <img src="https://latex.codecogs.com/png.latex?b"> and the Biot modulus <img src="https://latex.codecogs.com/png.latex?N">. The first two are those of elasticity. The last two tell how the pore pressure enters the problem, and textbooks tend to state their expressions rather than derive them. Here is the shortest derivation I know, following Coussy’s presentation.</p>
+<section id="the-state-equations" class="level2">
+<h2 class="anchored" data-anchor-id="the-state-equations">The state equations</h2>
+<p>Take a porous solid with connected porosity <img src="https://latex.codecogs.com/png.latex?%5Cvarphi_0"> in its reference state and a pore pressure <img src="https://latex.codecogs.com/png.latex?p">. The volumetric state equations of linear isotropic poroelasticity read</p>
+<p><span id="eq-state"><img src="https://latex.codecogs.com/png.latex?%0A%5Csigma_m%20=%20K%5C,%5Cvarepsilon_v%20-%20b%5C,p,%20%5Cqquad%0A%5Cvarphi%20-%20%5Cvarphi_0%20=%20b%5C,%5Cvarepsilon_v%20+%20%5Cfrac%7Bp%7D%7BN%7D,%0A%5Ctag%7B1%7D"></span></p>
+<p>where <img src="https://latex.codecogs.com/png.latex?%5Csigma_m%20=%20%5Ctfrac13%5C,%5Cmathrm%7Btr%7D%5C,%5Cboldsymbol%7B%5Csigma%7D"> is the mean stress, <img src="https://latex.codecogs.com/png.latex?%5Cvarepsilon_v%20=%20%5Cmathrm%7Btr%7D%5C,%5Cboldsymbol%7B%5Cvarepsilon%7D"> the volumetric strain and <img src="https://latex.codecogs.com/png.latex?%5Cvarphi"> the Lagrangian porosity (pore volume per unit <em>reference</em> volume). The same coefficient <img src="https://latex.codecogs.com/png.latex?b"> appears in both equations: this is Maxwell symmetry, and it follows from the existence of a free energy for the skeleton.</p>
+<p>Two constants, <img src="https://latex.codecogs.com/png.latex?b"> and <img src="https://latex.codecogs.com/png.latex?N">, remain to be identified. One experiment does it.</p>
+</section>
+<section id="the-unjacketed-test" class="level2">
+<h2 class="anchored" data-anchor-id="the-unjacketed-test">The unjacketed test</h2>
+<p>Let the solid phase be homogeneous and isotropic, with bulk modulus <img src="https://latex.codecogs.com/png.latex?K_s">. Apply the same pressure <img src="https://latex.codecogs.com/png.latex?p"> on the outer boundary of the sample and inside the pores — the <em>unjacketed</em> test, since no membrane separates the two. The solid is then loaded by <img src="https://latex.codecogs.com/png.latex?p"> on its entire boundary, so the stress field <img src="https://latex.codecogs.com/png.latex?%5Cboldsymbol%7B%5Csigma%7D%20=%20-p%5C,%5Cmathbf%7B1%7D"> is a uniform solution of the equilibrium problem in the solid phase. Everything contracts uniformly:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cvarepsilon_v%20=%20-%5Cfrac%7Bp%7D%7BK_s%7D,%20%5Cqquad%0A%5Cvarphi%20-%20%5Cvarphi_0%20=%20%5Cvarphi_0%5C,%5Cvarepsilon_v%20=%20-%5Cvarphi_0%5C,%5Cfrac%7Bp%7D%7BK_s%7D,%0A"></p>
+<p>the second relation because a uniform dilatation scales every volume, pores included, by the same factor. The macroscopic mean stress is <img src="https://latex.codecogs.com/png.latex?%5Csigma_m%20=%20-p">.</p>
+<p>Insert these into Equation&nbsp;1. The first equation gives</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A-p%20=%20-%5Cfrac%7BK%7D%7BK_s%7D%5C,p%20-%20b%5C,p%0A%5Cquad%5CLongrightarrow%5Cquad%0Ab%20=%201%20-%20%5Cfrac%7BK%7D%7BK_s%7D,%0A"></p>
+<p>and the second,</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A-%5Cvarphi_0%5C,%5Cfrac%7Bp%7D%7BK_s%7D%20=%20-b%5C,%5Cfrac%7Bp%7D%7BK_s%7D%20+%20%5Cfrac%7Bp%7D%7BN%7D%0A%5Cquad%5CLongrightarrow%5Cquad%0A%5Cfrac%7B1%7D%7BN%7D%20=%20%5Cfrac%7Bb%20-%20%5Cvarphi_0%7D%7BK_s%7D.%0A"></p>
+<p>That is all. Both poroelastic constants follow from the drained modulus, the solid modulus and the porosity.</p>
+</section>
+<section id="what-the-result-says" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-result-says">What the result says</h2>
+<ul>
+<li><strong>Soils.</strong> The grains are much stiffer than the skeleton, <img src="https://latex.codecogs.com/png.latex?K%20%5Cll%20K_s">, so <img src="https://latex.codecogs.com/png.latex?b%20%5Cto%201">: Terzaghi’s effective stress <img src="https://latex.codecogs.com/png.latex?%5Csigma_m%20+%20p"> is recovered. This is why soil mechanics can ignore <img src="https://latex.codecogs.com/png.latex?b"> altogether.</li>
+<li><strong>Rocks.</strong> The skeleton of a low-porosity rock is not much softer than its minerals, and <img src="https://latex.codecogs.com/png.latex?b"> sits well below one — around <img src="https://latex.codecogs.com/png.latex?0.45"> for Westerly granite, for instance. The pore pressure then carries less weight than Terzaghi’s rule predicts, which matters for the stress state around a deep tunnel or a well.</li>
+<li><strong>Bounds.</strong> Since <img src="https://latex.codecogs.com/png.latex?K%20%5Cle%20K_s"> and <img src="https://latex.codecogs.com/png.latex?b%20%5Cge%20%5Cvarphi_0"> (the skeleton cannot be stiffer than its solid, and <img src="https://latex.codecogs.com/png.latex?1/N"> cannot be negative), <img src="https://latex.codecogs.com/png.latex?%5Cvarphi_0%20%5Cle%20b%20%5Cle%201">.</li>
+</ul>
+<p>In a jointed rock mass there are two porous systems — the pores of the matrix and the network of joints — and the argument above has to be run twice, with the exchange of fluid between the two systems added. That is a post for another day.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div> ]]></description>
+  <category>poromechanics</category>
+  <category>derivations</category>
+  <guid>https://augustobopsinborges.github.io/blog/posts/2026-11-08-biot-coefficient/</guid>
+  <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
