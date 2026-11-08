@@ -1,0 +1,35 @@
+---
+title: "Publications"
+subtitle: "Journal articles, thesis and conference papers."
+---
+
+A BibTeX file with every entry on this page: [publications.bib](files/publications.bib).
+
+## Journal articles
+
+::: {.pub-list}
+- [A micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium]{.pub-title}
+  **Borges, A. B.**, Maghous, S. [Submitted to *Computers and Geotechnics*, 2026.]{.pub-venue} [Under review]{.pub-status}
+:::
+
+Companion papers extending the formulation to time-dependent, thermal and chemical
+couplings, to partially saturated media and to elastoplastic constituents are in
+preparation.
+
+## Thesis
+
+::: {.pub-list}
+- [Formulação micromecânica do comportamento poroelástico de meios rochosos fraturados e implementação computacional]{.pub-title}
+  **Borges, A. B.** [Doctoral thesis, Graduate Program in Civil Engineering (PPGEC), Federal University of Rio Grande do Sul, Porto Alegre. Advisor: Prof. Samir Maghous.]{.pub-venue} [In preparation]{.pub-status}
+  [English title: *Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation*.]{.pub-venue}
+:::
+
+<!--
+## Conference papers
+
+::: {.pub-list}
+- [Title]{.pub-title}
+  Authors. [Conference, city, year.]{.pub-venue}
+  [[PDF](files/xxx.pdf) · [DOI](https://doi.org/xxx)]{.pub-links}
+:::
+-->

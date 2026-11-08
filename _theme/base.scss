@@ -1,0 +1,348 @@
+/*-- scss:rules --*/
+
+// ---------------------------------------------------------------------------
+// Shared rules. Colors come from the CSS custom properties (--ab-*) declared
+// in light.scss and dark.scss, so this file is written once for both themes.
+// ---------------------------------------------------------------------------
+
+// --- Typography -----------------------------------------------------------
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
+  color: var(--ab-ink);
+}
+
+h2 {
+  font-size: 1.55rem;
+  margin-top: 2.8rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--ab-rule);
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+}
+
+p, li {
+  max-width: 72ch;
+}
+
+a {
+  text-decoration: none;
+  text-underline-offset: 0.15em;
+  &:hover { text-decoration: underline; }
+}
+
+// --- Navbar and footer ----------------------------------------------------
+.navbar {
+  border-bottom: 1px solid var(--ab-rule);
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+
+  .navbar-brand {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+}
+
+.nav-footer {
+  border-top: 1px solid var(--ab-rule);
+  font-size: 0.9rem;
+  color: var(--ab-muted);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+// --- Title block ----------------------------------------------------------
+#title-block-header {
+  margin-bottom: 2rem;
+
+  .title {
+    font-size: 2.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .subtitle {
+    font-size: 1.15rem;
+    color: var(--ab-muted);
+    font-style: italic;
+    font-family: "Source Serif 4", Georgia, serif;
+  }
+}
+
+// --- Hero (home page) -----------------------------------------------------
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2rem 0 1rem;
+
+  @media (max-width: 767.98px) {
+    grid-template-columns: 1fr;
+    .hero-portrait { order: -1; width: 140px; height: 140px; }
+  }
+}
+
+.hero-name {
+  display: block;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--ab-ink);
+  margin-bottom: 0.4rem;
+}
+
+.hero-role {
+  display: block;
+  font-size: 1.1rem;
+  color: var(--ab-muted);
+  margin-bottom: 1.2rem;
+}
+
+.hero-body p {
+  font-size: 1.1rem;
+}
+
+.hero-portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid var(--ab-rule);
+  box-shadow: var(--ab-shadow);
+  margin: 0;
+  justify-self: center;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.2rem 0 1rem;
+}
+
+.hero-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.2rem;
+  font-size: 0.95rem;
+
+  a { color: var(--ab-muted); }
+  a:hover { color: var(--ab-accent); text-decoration: none; }
+  .bi { margin-right: 0.3rem; }
+}
+
+// --- Buttons ---------------------------------------------------------------
+.btn-ab {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--ab-rule);
+  background: var(--ab-surface);
+  color: var(--ab-ink);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+
+  &:hover {
+    text-decoration: none;
+    border-color: var(--ab-accent);
+    color: var(--ab-accent);
+  }
+}
+
+.btn-ab-primary {
+  background: var(--ab-accent);
+  border-color: var(--ab-accent);
+  color: #fff;
+
+  &:hover {
+    background: var(--ab-accent-strong);
+    border-color: var(--ab-accent-strong);
+    color: #fff;
+  }
+}
+
+// --- Cards -----------------------------------------------------------------
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.ab-card {
+  background: var(--ab-surface);
+  border: 1px solid var(--ab-rule);
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem;
+  box-shadow: var(--ab-shadow);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  p {
+    margin-bottom: 0;
+    color: var(--ab-muted);
+    font-size: 0.97rem;
+  }
+
+  p:last-child a {
+    font-weight: 600;
+  }
+}
+
+// --- Section actions (link rows under a section) ----------------------------
+.section-actions {
+  margin: 1rem 0 0;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+// --- Publications ---------------------------------------------------------
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: 0.8rem 0 0.8rem 1rem;
+    border-left: 3px solid var(--ab-rule);
+    margin-bottom: 0.6rem;
+    max-width: none;
+
+    &:hover { border-left-color: var(--ab-accent); }
+  }
+
+  .pub-title {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.08rem;
+    font-weight: 600;
+    display: block;
+  }
+
+  .pub-venue {
+    color: var(--ab-muted);
+    font-size: 0.95rem;
+  }
+
+  .pub-links {
+    font-size: 0.9rem;
+    a { margin-right: 0.8rem; }
+  }
+}
+
+.pub-status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: var(--ab-accent2-soft);
+  color: var(--ab-accent2);
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
+// --- Blog listing (home and blog index) --------------------------------------
+.quarto-listing-default {
+  .quarto-post {
+    border-bottom: 1px solid var(--ab-rule);
+    padding: 1.1rem 0;
+    margin-bottom: 0;
+
+    .listing-title {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .listing-description {
+      color: var(--ab-muted);
+    }
+
+    .listing-date {
+      color: var(--ab-muted);
+      font-size: 0.9rem;
+    }
+
+    .listing-reading-time {
+      color: var(--ab-muted);
+      font-size: 0.85rem;
+    }
+
+    .listing-categories .listing-category {
+      border-color: var(--ab-rule);
+      color: var(--ab-muted);
+      font-size: 0.75rem;
+    }
+  }
+}
+
+// Categories sidebar on the blog index
+.quarto-listing-category-title {
+  color: var(--ab-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+// Category pills on a post page
+.quarto-title .quarto-categories .quarto-category {
+  border-color: var(--ab-rule);
+  color: var(--ab-muted);
+}
+
+// --- Post pages ------------------------------------------------------------
+.quarto-title-meta-heading {
+  color: var(--ab-muted);
+  font-size: 0.8rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--ab-accent);
+  color: var(--ab-muted);
+  padding-left: 1rem;
+}
+
+// Code
+pre {
+  border-radius: 8px;
+  border: 1px solid var(--ab-rule);
+  font-size: 0.9em;
+}
+
+code:not(pre code) {
+  font-size: 0.88em;
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+}
+
+// Tables
+table {
+  font-size: 0.95rem;
+}
+
+// Math: a touch larger than the surrounding text
+.katex {
+  font-size: 1.05em;
+}

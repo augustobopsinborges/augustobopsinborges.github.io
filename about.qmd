@@ -1,0 +1,41 @@
+---
+title: "About"
+subtitle: "Background, affiliations and contact."
+---
+
+I am a civil engineer and a doctoral candidate at the Graduate Program in Civil
+Engineering ([PPGEC](https://www.ufrgs.br/ppgec/)) of the Federal University of Rio
+Grande do Sul ([UFRGS](https://www.ufrgs.br)), in Porto Alegre, Brazil, where I work
+under the supervision of Prof. Samir Maghous on the micromechanics and poromechanics of
+jointed rock media.
+
+<!-- TODO: professional activity outside the university (company, role), degrees and years. -->
+
+My work combines three things I enjoy in equal measure: deriving models from the
+mechanics of the constituents, implementing them in finite element codes that others
+can use, and confronting them with what is measured in the field.
+
+## Background
+
+<!-- TODO: fill in -->
+
+- Doctoral candidate in Civil Engineering, PPGEC / UFRGS — thesis *Micromechanical
+  formulation of the poroelastic behavior of jointed rock media and computational
+  implementation*, advised by Prof. Samir Maghous.
+
+## Elsewhere
+
+- [GitHub](https://github.com/augustobopsinborges) — code and documents.
+- [Blog](blog/index.qmd) — notes on poromechanics, numerical methods and tools.
+
+## Contact
+
+[augustobopsinborges@gmail.com](mailto:augustobopsinborges@gmail.com)
+
+## About this site
+
+Built with [Quarto](https://quarto.org) and hosted on GitHub Pages. Its layout is
+inspired by the sites of
+[Jean-François Barthélémy](https://jfbarthelemy.github.io) and
+[Sébastien Brisard](https://sbrisard.github.io). The source is
+[on GitHub](https://github.com/augustobopsinborges/aborges.github.io).

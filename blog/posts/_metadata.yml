@@ -1,0 +1,7 @@
+# Options shared by every post.
+toc: true
+toc-depth: 2
+toc-location: right
+number-sections: false
+author: "Augusto Bopsin Borges"
+license: "CC BY 4.0"

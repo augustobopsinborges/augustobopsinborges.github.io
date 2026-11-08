@@ -1,0 +1,37 @@
+/*-- scss:defaults --*/
+
+// Bootstrap / Quarto variables for the light theme.
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-family-monospace: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, monospace;
+$font-size-root: 17px;
+$headings-font-weight: 600;
+$line-height-base: 1.6;
+
+$body-bg: #faf9f6;
+$body-color: #1f2328;
+$link-color: #146c7a;
+$link-hover-color: #0e4f5a;
+$navbar-bg: #faf9f6;
+$navbar-fg: #1f2328;
+$navbar-hl: #146c7a;
+$footer-bg: #faf9f6;
+$footer-fg: #5f6670;
+$code-bg: #f1efea;
+$code-color: #8a3b2a;
+
+/*-- scss:rules --*/
+
+:root {
+  --ab-bg: #faf9f6;
+  --ab-surface: #ffffff;
+  --ab-ink: #1f2328;
+  --ab-muted: #5f6670;
+  --ab-rule: #e4e1da;
+  --ab-accent: #146c7a;
+  --ab-accent-strong: #0e4f5a;
+  --ab-accent-soft: #e3f0f2;
+  --ab-accent2: #b5742b;
+  --ab-accent2-soft: #f6ecdd;
+  --ab-shadow: 0 1px 2px rgba(31, 35, 40, 0.04), 0 6px 20px rgba(31, 35, 40, 0.05);
+}

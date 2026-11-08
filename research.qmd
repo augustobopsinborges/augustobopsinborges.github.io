@@ -1,0 +1,55 @@
+---
+title: "Research"
+subtitle: "Micromechanics and poromechanics of jointed rock media, and the computational tools to use them."
+toc: true
+toc-location: right
+---
+
+Rock masses are rarely continuous. They are cut by families of joints — fractures that
+are both weaker and far more permeable than the intact rock between them — so that
+deformation and fluid flow happen in two coupled systems: the pores of the rock matrix
+and the network of joints. My research builds continuum models of this double-porosity
+behavior from the mechanics of the constituents, and puts them to work in finite element
+computations at the scale of engineering structures.
+
+## Micromechanics of jointed rock
+
+The starting point is a homogenization approach. Long joints are treated as interfaces
+whose normal and tangential stiffnesses, spacing and orientation enter the effective
+properties of the rock mass; short joints are handled with Eshelby-based schemes of the
+Mori–Tanaka type. The result is a set of poroelastic coefficients — drained stiffness,
+two Biot tensors, two Biot moduli and a coupling modulus — for a double-porosity medium
+in which matrix and joints exchange fluid.
+
+The formulation is the subject of my doctoral thesis, supervised by Prof. Samir Maghous
+at [PPGEC / UFRGS](https://www.ufrgs.br/ppgec/), and of a paper currently under review
+(see [Publications](publications.qmd)).
+
+## Coupled poromechanics
+
+The same micromechanical structure lends itself to richer constitutive behavior. Ongoing
+work extends the double-porosity formulation to
+
+- **time-dependent joints** (poroviscoelasticity, hereditary coefficients and aging),
+- **thermal and chemical couplings** (thermoporoelasticity and chemoporoelasticity,
+  including osmotic effects),
+- **partially saturated media**, with two fluids in each porous system,
+- **elastoplastic constituents**, with the two effective stresses that the two porous
+  systems call for.
+
+## Finite element computation
+
+Models are only useful once they can be computed. I develop and maintain
+[GEOMECH3D](software.qmd#geomech3d), a three-dimensional finite element program for Biot
+poroelasticity, and [GEOMECH3D-DP](software.qmd#geomech3d-dp), its double-porosity
+counterpart, which solves the symmetric indefinite system of the coupled
+displacement–pressure–pressure problem. Both are driven from GiD® through dedicated
+problem types.
+
+## Field-scale applications
+
+The models are confronted with documented case studies of deep tunnels in fractured rock
+masses, where the drainage of the rock mass by the excavation induces surface settlements
+and long-term changes in pore pressure. These comparisons test whether the coefficients
+obtained from field data for the joints and the matrix reproduce the observed behavior
+with both mechanisms acting in a single continuum.

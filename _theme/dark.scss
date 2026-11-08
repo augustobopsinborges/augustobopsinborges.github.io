@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+// Bootstrap / Quarto variables for the dark theme.
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-family-monospace: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, monospace;
+$font-size-root: 17px;
+$headings-font-weight: 600;
+$line-height-base: 1.6;
+
+$body-bg: #15181c;
+$body-color: #e6e4df;
+$link-color: #6cc3cf;
+$link-hover-color: #9ad8e0;
+$navbar-bg: #15181c;
+$navbar-fg: #e6e4df;
+$navbar-hl: #6cc3cf;
+$footer-bg: #15181c;
+$footer-fg: #9aa0a8;
+$code-bg: #1f242a;
+$code-color: #e0a58b;
+$pre-bg: #1f242a;
+
+/*-- scss:rules --*/
+
+:root {
+  --ab-bg: #15181c;
+  --ab-surface: #1d2126;
+  --ab-ink: #e6e4df;
+  --ab-muted: #9aa0a8;
+  --ab-rule: #2c3138;
+  --ab-accent: #6cc3cf;
+  --ab-accent-strong: #9ad8e0;
+  --ab-accent-soft: #1b2f33;
+  --ab-accent2: #d9a05b;
+  --ab-accent2-soft: #302819;
+  --ab-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.25);
+}

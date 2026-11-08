@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/
+
+lang: en
+
+website:
+  title: "Augusto Bopsin Borges"
+  description: "Civil engineer and researcher — micromechanics and poromechanics of jointed rock media, finite element computation."
+  site-url: https://aborges.github.io
+  repo-url: https://github.com/augustobopsinborges/aborges.github.io
+  favicon: images/favicon.svg
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    title: "A. B. Borges"
+    tools:
+      - icon: github
+        href: https://github.com/augustobopsinborges
+        text: GitHub
+      - icon: rss
+        href: blog/index.xml
+        text: RSS feed
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: blog/index.qmd
+        text: Blog
+      - href: about.qmd
+        text: About
+  page-footer:
+    left: |
+      Augusto Bopsin Borges — [PPGEC](https://www.ufrgs.br/ppgec/) · [UFRGS](https://www.ufrgs.br)
+    center: |
+      [GitHub](https://github.com/augustobopsinborges) · [Email](mailto:augustobopsinborges@gmail.com)
+    right: |
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme:
+      light: [cosmo, _theme/base.scss, _theme/light.scss]
+      dark: [cosmo, _theme/base.scss, _theme/dark.scss]
+    include-in-header: _theme/head.html
+    toc: false
+    title-block-banner: false
+    page-layout: article
+    code-overflow: wrap
+    anchor-sections: true
+    html-math-method: katex
+    link-external-newwindow: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto

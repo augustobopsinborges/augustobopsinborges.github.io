@@ -1,0 +1,41 @@
+---
+title: "Software"
+subtitle: "Finite element programs for poroelasticity and a library for micromechanical models."
+toc: true
+toc-location: right
+---
+
+The programs below grew out of the research described on the [Research](research.qmd)
+page. They are written to be verified: every new capability comes with a test case, and
+the double-porosity code reproduces the single-porosity one in the limit case.
+
+## GEOMECH3D
+
+Three-dimensional finite element program for coupled poroelastic analysis — solid
+deformation and fluid flow in the framework of Biot's theory. Written in Fortran, in
+development since 2021. It reads models prepared with the GiD® problem type
+[AugustoPoroelastico.gid](https://github.com/augustobopsinborges/AugustoPoroelastico.gid)
+and writes results back to GiD® for post-processing.
+
+[Repository →](https://github.com/augustobopsinborges/GEOMECH3D){.btn-ab}
+
+## GEOMECH3D-DP
+
+Finite element program for **double-porosity** poroelasticity: Biot's theory extended to
+two porous systems, the rock matrix and the network of joints, with fluid exchange
+between them. The coupled displacement–pressure–pressure problem leads to a symmetric
+indefinite system, solved in three dimensions. Developed separately from GEOMECH3D so
+that it could be verified independently; its companion problem type is
+[GEOMECH3D-DP.gid](https://github.com/augustobopsinborges/GEOMECH3D-DP.gid).
+
+[Repository →](https://github.com/augustobopsinborges/GEOMECH3D-DP){.btn-ab}
+
+## GeoMicroLab
+
+Python library to implement, audit, verify and compare micromechanical models of porous
+materials and fractured rock. Every formulation states its hypotheses, documents its
+equations and declares its limitations, and the documentation distinguishes, line by
+line, what is implemented, tested, verified mathematically and validated against
+experiments.
+
+<!-- [Repository →](https://github.com/augustobopsinborges/geomicro-lab){.btn-ab} -->

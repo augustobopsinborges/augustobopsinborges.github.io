@@ -1,0 +1,133 @@
+---
+title: "Augusto Bopsin Borges"
+description-meta: >
+  Civil engineer and researcher at PPGEC / UFRGS — micromechanics and poromechanics
+  of jointed rock media, double porosity, finite element computation.
+title-block-style: none
+page-layout: full
+toc: false
+listing:
+  id: recent-posts
+  contents: blog/posts
+  sort: "date desc"
+  type: default
+  max-items: 3
+  fields: [date, title, description, categories, reading-time]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  feed: false
+---
+
+::::: {.hero}
+
+:::: {.hero-body}
+
+[Augusto Bopsin Borges]{.hero-name}
+[Civil engineer · PhD candidate, PPGEC / UFRGS]{.hero-role}
+
+I work on the mechanics of porous and fractured rock: micromechanical models for the
+poroelastic behavior of jointed rock masses, their coupling with fluid flow, and their
+implementation in finite element codes for problems at the scale of tunnels and dams.
+I am a doctoral candidate at the Graduate Program in Civil Engineering
+([PPGEC](https://www.ufrgs.br/ppgec/)) of the Federal University of Rio Grande do Sul
+([UFRGS](https://www.ufrgs.br)), under the supervision of Prof. Samir Maghous.
+
+::: {.hero-actions}
+[Research](research.qmd){.btn-ab .btn-ab-primary}
+[Publications](publications.qmd){.btn-ab}
+[Software](software.qmd){.btn-ab}
+[Blog](blog/index.qmd){.btn-ab}
+:::
+
+::: {.hero-social}
+[<i class="bi bi-github"></i>GitHub](https://github.com/augustobopsinborges)
+[<i class="bi bi-envelope"></i>Email](mailto:augustobopsinborges@gmail.com)
+<!-- Add when available:
+[<i class="bi bi-person-badge"></i>ORCID](https://orcid.org/0000-0000-0000-0000)
+[<i class="bi bi-mortarboard"></i>Lattes](http://lattes.cnpq.br/0000000000000000)
+[<i class="bi bi-google"></i>Scholar](https://scholar.google.com/citations?user=XXXX)
+[<i class="bi bi-linkedin"></i>LinkedIn](https://www.linkedin.com/in/xxxx/)
+-->
+:::
+
+::::
+
+![](images/monogram.svg){.hero-portrait fig-alt="Augusto Bopsin Borges"}
+
+:::::
+
+## Research interests
+
+:::: {.card-grid}
+
+::: {.ab-card}
+### Micromechanics of jointed rock
+Homogenization of rock masses crossed by families of joints: long joints as
+interfaces, short joints through Eshelby-based schemes, and the resulting
+double-porosity poroelastic coefficients.
+:::
+
+::: {.ab-card}
+### Coupled poromechanics
+Extensions of the double-porosity formulation to time-dependent, thermal and
+chemical couplings, to partially saturated media and to elastoplastic constituents.
+:::
+
+::: {.ab-card}
+### Finite element computation
+Three-dimensional finite element codes for Biot poroelasticity with one or two
+porous systems, from the variational formulation to the solver and the
+pre- and post-processing chain.
+:::
+
+::: {.ab-card}
+### Field-scale applications
+Deep tunnels and reservoirs in fractured rock masses, where drainage,
+settlement and pressure changes are governed by the interplay between joints
+and matrix.
+:::
+
+::::
+
+::: {.section-actions}
+[More on the research →](research.qmd){.btn-ab}
+:::
+
+## From the blog
+
+Notes on poromechanics, numerical methods and the tools around them.
+Every post is listed on the [blog page](blog/index.qmd), which also carries an
+[RSS feed](blog/index.xml).
+
+::: {#recent-posts}
+:::
+
+::: {.section-actions}
+[All posts →](blog/index.qmd){.btn-ab}
+:::
+
+## Recent publications
+
+::: {.pub-list}
+- [A micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium]{.pub-title}
+  **Borges, A. B.**, Maghous, S. [Submitted to *Computers and Geotechnics*, 2026.]{.pub-venue} [Under review]{.pub-status}
+- [Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation]{.pub-title}
+  **Borges, A. B.** [Doctoral thesis, PPGEC / UFRGS, Porto Alegre. Advisor: Prof. Samir Maghous.]{.pub-venue} [In preparation]{.pub-status}
+:::
+
+::: {.section-actions}
+[All publications →](publications.qmd){.btn-ab}
+:::
+
+## Software
+
+I develop finite element programs for poroelastic analysis — [GEOMECH3D](software.qmd#geomech3d)
+for single-porosity Biot media and [GEOMECH3D-DP](software.qmd#geomech3d-dp) for the
+double-porosity formulation — together with their GiD® pre- and post-processing problem
+types, and [GeoMicroLab](software.qmd#geomicrolab), a Python library for implementing and
+verifying micromechanical models of porous and fractured materials.
+
+::: {.section-actions}
+[Browse the software →](software.qmd){.btn-ab}
+:::
