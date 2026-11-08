@@ -116,7 +116,7 @@
     "href": "about.html#service",
     "title": "About",
     "section": "Service",
-    "text": "Service\n\nReviewer for the Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE), 2020, 2021 and 2022.\nMember of the examining committee of an undergraduate thesis in civil engineering, UFRGS, 2019."
+    "text": "Service\n\nReviewer for the Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE), 2020, 2021 and 2022."
   },
   {
     "objectID": "about.html#languages",
@@ -144,7 +144,7 @@
     "href": "about.html#about-this-site",
     "title": "About",
     "section": "About this site",
-    "text": "About this site\nBuilt with Quarto and hosted on GitHub Pages. Its layout is inspired by the sites of Jean-François Barthélémy and Sébastien Brisard. The source is on GitHub."
+    "text": "About this site\nBuilt with Quarto and hosted on GitHub Pages. The source is on GitHub."
   },
   {
     "objectID": "blog/posts/2026-11-08-biot-coefficient/index.html",
