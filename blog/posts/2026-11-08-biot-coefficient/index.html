@@ -423,12 +423,12 @@ window.Quarto = {
 \sigma_m = K\,\varepsilon_v - b\,p, \qquad
 \varphi - \varphi_0 = b\,\varepsilon_v + \frac{p}{N},
 \tag{1}</span></span></p>
-<p>where <span class="math inline">\sigma_m = \tfrac13\,\mathrm{tr}\,\boldsymbol{\sigma}</span> is the mean stress, <span class="math inline">\varepsilon_v = \mathrm{tr}\,\boldsymbol{\varepsilon}</span> the volumetric strain and <span class="math inline">\varphi</span> the Lagrangian porosity (pore volume per unit <em>reference</em> volume). The same coefficient <span class="math inline">b</span> appears in both equations: this is Maxwell symmetry, and it follows from the existence of a free energy for the skeleton.</p>
+<p>where <span class="math inline">\sigma_m = \tfrac13\,\mathrm{tr}\,\boldsymbol{\sigma}</span> is the mean stress, <span class="math inline">\varepsilon_v = \mathrm{tr}\,\boldsymbol{\varepsilon}</span> the volumetric strain and <span class="math inline">\varphi</span> the Lagrangian porosity (pore volume per unit <em>reference</em> volume). The same coefficient <span class="math inline">b</span> appears in both equations. This is Maxwell symmetry, and it follows from the existence of a free energy for the skeleton.</p>
 <p>Two constants, <span class="math inline">b</span> and <span class="math inline">N</span>, remain to be identified. One experiment does it.</p>
 </section>
 <section id="the-unjacketed-test" class="level2">
 <h2 class="anchored" data-anchor-id="the-unjacketed-test">The unjacketed test</h2>
-<p>Let the solid phase be homogeneous and isotropic, with bulk modulus <span class="math inline">K_s</span>. Apply the same pressure <span class="math inline">p</span> on the outer boundary of the sample and inside the pores — the <em>unjacketed</em> test, since no membrane separates the two. The solid is then loaded by <span class="math inline">p</span> on its entire boundary, so the stress field <span class="math inline">\boldsymbol{\sigma} = -p\,\mathbf{1}</span> is a uniform solution of the equilibrium problem in the solid phase. Everything contracts uniformly:</p>
+<p>Let the solid phase be homogeneous and isotropic, with bulk modulus <span class="math inline">k_s</span>. Apply the same pressure <span class="math inline">p</span> on the outer boundary of the sample and inside the pores - the <em>unjacketed</em> test, since no membrane separates the two. The solid is then loaded by <span class="math inline">p</span> on its entire boundary, so the stress field <span class="math inline">\boldsymbol{\sigma} = -p\,\mathbf{1}</span> is a uniform solution of the equilibrium problem in the solid phase. Everything contracts uniformly:</p>
 <p><span class="math display">
 \varepsilon_v = -\frac{p}{K_s}, \qquad
 \varphi - \varphi_0 = \varphi_0\,\varepsilon_v = -\varphi_0\,\frac{p}{K_s},
@@ -452,10 +452,10 @@ b = 1 - \frac{K}{K_s},
 <h2 class="anchored" data-anchor-id="what-the-result-says">What the result says</h2>
 <ul>
 <li><strong>Soils.</strong> The grains are much stiffer than the skeleton, <span class="math inline">K \ll K_s</span>, so <span class="math inline">b \to 1</span>: Terzaghi’s effective stress <span class="math inline">\sigma_m + p</span> is recovered. This is why soil mechanics can ignore <span class="math inline">b</span> altogether.</li>
-<li><strong>Rocks.</strong> The skeleton of a low-porosity rock is not much softer than its minerals, and <span class="math inline">b</span> sits well below one — around <span class="math inline">0.45</span> for Westerly granite, for instance. The pore pressure then carries less weight than Terzaghi’s rule predicts, which matters for the stress state around a deep tunnel or a well.</li>
+<li><strong>Rocks.</strong> The skeleton of a low-porosity rock is not much softer than its minerals, and <span class="math inline">b</span> sits well below one (around <span class="math inline">0.45</span> for Westerly granite, for instance). The pore pressure then carries less weight than Terzaghi’s rule predicts, which matters for the stress state around a deep tunnel or a well.</li>
 <li><strong>Bounds.</strong> Since <span class="math inline">K \le K_s</span> and <span class="math inline">b \ge \varphi_0</span> (the skeleton cannot be stiffer than its solid, and <span class="math inline">1/N</span> cannot be negative), <span class="math inline">\varphi_0 \le b \le 1</span>.</li>
 </ul>
-<p>In a jointed rock mass there are two porous systems — the pores of the matrix and the network of joints — and the argument above has to be run twice, with the exchange of fluid between the two systems added. That is a post for another day.</p>
+<p>In a jointed rock mass there may be considered two porous systems (the pores of the matrix and the network of joints) and the argument above has to be run twice, with the exchange of fluid between the two systems added. That is a post for another day.</p>
 
 
 </section>
