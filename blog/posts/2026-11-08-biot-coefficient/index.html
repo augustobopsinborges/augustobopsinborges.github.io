@@ -430,30 +430,30 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="the-unjacketed-test">The unjacketed test</h2>
 <p>Let the solid phase be homogeneous and isotropic, with bulk modulus <span class="math inline">k_s</span>. Apply the same pressure <span class="math inline">p</span> on the outer boundary of the sample and inside the pores - the <em>unjacketed</em> test, since no membrane separates the two. The solid is then loaded by <span class="math inline">p</span> on its entire boundary, so the stress field <span class="math inline">\boldsymbol{\sigma} = -p\,\mathbf{1}</span> is a uniform solution of the equilibrium problem in the solid phase. Everything contracts uniformly:</p>
 <p><span class="math display">
-\varepsilon_v = -\frac{p}{K_s}, \qquad
-\varphi - \varphi_0 = \varphi_0\,\varepsilon_v = -\varphi_0\,\frac{p}{K_s},
+\varepsilon_v = -\frac{p}{k_s}, \qquad
+\varphi - \varphi_0 = \varphi_0\,\varepsilon_v = -\varphi_0\,\frac{p}{k_s},
 </span></p>
 <p>the second relation because a uniform dilatation scales every volume, pores included, by the same factor. The macroscopic mean stress is <span class="math inline">\sigma_m = -p</span>.</p>
 <p>Insert these into <a href="#eq-state" class="quarto-xref">Equation&nbsp;1</a>. The first equation gives</p>
 <p><span class="math display">
--p = -\frac{K}{K_s}\,p - b\,p
+-p = -\frac{K}{k_s}\,p - b\,p
 \quad\Longrightarrow\quad
-b = 1 - \frac{K}{K_s},
+b = 1 - \frac{K}{k_s},
 </span></p>
 <p>and the second,</p>
 <p><span class="math display">
--\varphi_0\,\frac{p}{K_s} = -b\,\frac{p}{K_s} + \frac{p}{N}
+-\varphi_0\,\frac{p}{k_s} = -b\,\frac{p}{k_s} + \frac{p}{N}
 \quad\Longrightarrow\quad
-\frac{1}{N} = \frac{b - \varphi_0}{K_s}.
+\frac{1}{N} = \frac{b - \varphi_0}{k_s}.
 </span></p>
 <p>That is all. Both poroelastic constants follow from the drained modulus, the solid modulus and the porosity.</p>
 </section>
 <section id="what-the-result-says" class="level2">
 <h2 class="anchored" data-anchor-id="what-the-result-says">What the result says</h2>
 <ul>
-<li><strong>Soils.</strong> The grains are much stiffer than the skeleton, <span class="math inline">K \ll K_s</span>, so <span class="math inline">b \to 1</span>: Terzaghi’s effective stress <span class="math inline">\sigma_m + p</span> is recovered. This is why soil mechanics can ignore <span class="math inline">b</span> altogether.</li>
+<li><strong>Soils.</strong> The grains are much stiffer than the skeleton, <span class="math inline">K \ll k_s</span>, so <span class="math inline">b \to 1</span>: Terzaghi’s effective stress <span class="math inline">\sigma_m + p</span> is recovered. This is why soil mechanics can ignore <span class="math inline">b</span> altogether.</li>
 <li><strong>Rocks.</strong> The skeleton of a low-porosity rock is not much softer than its minerals, and <span class="math inline">b</span> sits well below one (around <span class="math inline">0.45</span> for Westerly granite, for instance). The pore pressure then carries less weight than Terzaghi’s rule predicts, which matters for the stress state around a deep tunnel or a well.</li>
-<li><strong>Bounds.</strong> Since <span class="math inline">K \le K_s</span> and <span class="math inline">b \ge \varphi_0</span> (the skeleton cannot be stiffer than its solid, and <span class="math inline">1/N</span> cannot be negative), <span class="math inline">\varphi_0 \le b \le 1</span>.</li>
+<li><strong>Bounds.</strong> Since <span class="math inline">K \le k_s</span> and <span class="math inline">b \ge \varphi_0</span> (the skeleton cannot be stiffer than its solid, and <span class="math inline">1/N</span> cannot be negative), <span class="math inline">\varphi_0 \le b \le 1</span>.</li>
 </ul>
 <p>In a jointed rock mass there may be considered two porous systems (the pores of the matrix and the network of joints) and the argument above has to be run twice, with the exchange of fluid between the two systems added. That is a post for another day.</p>
 
