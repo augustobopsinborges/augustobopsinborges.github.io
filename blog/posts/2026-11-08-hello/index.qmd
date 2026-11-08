@@ -14,8 +14,7 @@ what I work on and change slowly, when a paper is accepted or a program gains a 
 The second is this blog. It is for the things that do not fit in a paper but are worth
 writing down once, carefully: a derivation that every textbook skips a step of, a
 numerical detail that cost an afternoon, a comparison between two ways of doing the same
-computation. The model is the kind of post Sébastien Brisard writes on
-[his blog](https://sbrisard.github.io): short, self-contained, with the equations
+computation. The model is of short posts, self-contained, with the equations
 and the code in plain sight.
 
 Posts are written in [Quarto](https://quarto.org), so mathematics renders with KaTeX

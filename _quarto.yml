@@ -8,7 +8,7 @@ lang: en
 
 website:
   title: "Augusto Bopsin Borges"
-  description: "Civil engineer and researcher — micromechanics and poromechanics of jointed rock media, finite element computation."
+  description: "Geotechnical engineer and researcher — mining geotechnics and dam engineering; micromechanics and poromechanics of jointed rock media; finite element computation."
   site-url: https://augustobopsinborges.github.io
   repo-url: https://github.com/augustobopsinborges/augustobopsinborges.github.io
   favicon: images/favicon.svg
@@ -40,9 +40,9 @@ website:
         text: About
   page-footer:
     left: |
-      Augusto Bopsin Borges — [PPGEC](https://www.ufrgs.br/ppgec/) · [UFRGS](https://www.ufrgs.br)
+      Augusto Bopsin Borges — [DF+ Engenharia](https://dfmais.eng.br) · [PPGEC / UFRGS](https://www.ufrgs.br/ppgec/)
     center: |
-      [GitHub](https://github.com/augustobopsinborges) · [Email](mailto:augustobopsinborges@gmail.com)
+      [ORCID](https://orcid.org/0000-0002-0521-3553) · [Lattes](http://lattes.cnpq.br/7249257151738108) · [LinkedIn](https://www.linkedin.com/in/augustobopsinborges/) · [GitHub](https://github.com/augustobopsinborges) · [Email](mailto:augustobopsinborges@gmail.com)
     right: |
       Built with [Quarto](https://quarto.org)
 

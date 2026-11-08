@@ -1,8 +1,9 @@
 ---
 pagetitle: "Augusto Bopsin Borges"
 description-meta: >
-  Civil engineer and researcher at PPGEC / UFRGS — micromechanics and poromechanics
-  of jointed rock media, double porosity, finite element computation.
+  Geotechnical engineer and researcher — mining geotechnics and dam engineering in
+  practice; micromechanics and poromechanics of jointed rock media, double porosity and
+  finite element computation in research. PhD candidate at PPGEC / UFRGS.
 page-layout: full
 toc: false
 listing:
@@ -23,14 +24,17 @@ listing:
 :::: {.hero-body}
 
 [Augusto Bopsin Borges]{.hero-name}
-[Civil engineer · PhD candidate, PPGEC / UFRGS]{.hero-role}
+[Geotechnical engineer · M.Sc. · PhD candidate, PPGEC / UFRGS]{.hero-role}
 
-I work on the mechanics of porous and fractured rock: micromechanical models for the
-poroelastic behavior of jointed rock masses, their coupling with fluid flow, and their
-implementation in finite element codes for problems at the scale of tunnels and dams.
-I am a doctoral candidate at the Graduate Program in Civil Engineering
-([PPGEC](https://www.ufrgs.br/ppgec/)) of the Federal University of Rio Grande do Sul
-([UFRGS](https://www.ufrgs.br)), under the supervision of Prof. Samir Maghous.
+I am a geotechnical engineer working at the meeting point of practice and research. In
+practice, I lead the geotechnical design of critical mining structures — tailings dams,
+waste piles, stockpiles and dry stacking facilities — as a senior engineer at
+[DF+ Engenharia](https://dfmais.eng.br), in Belo Horizonte. In research, I build
+micromechanical models for the poroelastic behavior of jointed rock masses and implement
+them in finite element codes, as a doctoral candidate at the Graduate Program in Civil
+Engineering ([PPGEC](https://www.ufrgs.br/ppgec/)) of the Federal University of Rio
+Grande do Sul ([UFRGS](https://www.ufrgs.br)), under the supervision of
+Prof. Samir Maghous.
 
 ::: {.hero-actions}
 [Research](research.qmd){.btn-ab .btn-ab-primary}
@@ -40,19 +44,16 @@ I am a doctoral candidate at the Graduate Program in Civil Engineering
 :::
 
 ::: {.hero-social}
+[<i class="bi bi-person-vcard"></i>ORCID](https://orcid.org/0000-0002-0521-3553)
+[<i class="bi bi-mortarboard"></i>Lattes](http://lattes.cnpq.br/7249257151738108)
+[<i class="bi bi-linkedin"></i>LinkedIn](https://www.linkedin.com/in/augustobopsinborges/)
 [<i class="bi bi-github"></i>GitHub](https://github.com/augustobopsinborges)
 [<i class="bi bi-envelope"></i>Email](mailto:augustobopsinborges@gmail.com)
-<!-- Add when available:
-[<i class="bi bi-person-badge"></i>ORCID](https://orcid.org/0000-0000-0000-0000)
-[<i class="bi bi-mortarboard"></i>Lattes](http://lattes.cnpq.br/0000000000000000)
-[<i class="bi bi-google"></i>Scholar](https://scholar.google.com/citations?user=XXXX)
-[<i class="bi bi-linkedin"></i>LinkedIn](https://www.linkedin.com/in/xxxx/)
--->
 :::
 
 ::::
 
-![](images/monogram.svg){.hero-portrait fig-alt="Augusto Bopsin Borges"}
+![](images/portrait.jpg){.hero-portrait fig-alt="Augusto Bopsin Borges"}
 
 :::::
 
@@ -93,6 +94,41 @@ and matrix.
 [More on the research →](research.qmd){.btn-ab}
 :::
 
+## Engineering practice
+
+:::: {.card-grid}
+
+::: {.ab-card}
+### Tailings storage facilities
+Design, raising and safety of tailings dams, from conceptual to executive phases;
+monitoring, instrumentation and performance reporting as part of Engineer of Record
+teams.
+:::
+
+::: {.ab-card}
+### Waste piles and dry stacking
+Soil and rock waste facilities, stockpiles and filtered tailings stacks for gold and
+iron mining, for throughputs up to 11 Mt/y and stack heights above 300 m.
+:::
+
+::: {.ab-card}
+### Foundations and slopes
+Foundation systems for large industrial plants, including vibrating structures;
+stability of natural and engineered slopes; seepage and geotechnical risk assessment.
+:::
+
+::: {.ab-card}
+### Computational geotechnics
+Finite element and limit equilibrium modeling, constitutive modeling and
+multivariate analysis of geotechnical data, in Python and Fortran.
+:::
+
+::::
+
+::: {.section-actions}
+[Background and experience →](about.qmd){.btn-ab}
+:::
+
 ## From the blog
 
 Notes on poromechanics, numerical methods and the tools around them.
@@ -111,8 +147,10 @@ Every post is listed on the [blog page](blog/index.qmd), which also carries an
 ::: {.pub-list}
 - [A micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium]{.pub-title}
   **Borges, A. B.**, Maghous, S. [Submitted to *Computers and Geotechnics*, 2026.]{.pub-venue} [Under review]{.pub-status}
-- [Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation]{.pub-title}
-  **Borges, A. B.** [Doctoral thesis, PPGEC / UFRGS, Porto Alegre. Advisor: Prof. Samir Maghous.]{.pub-venue} [In preparation]{.pub-status}
+- [Micromechanical approach to the effective poroelastic behavior of jointed rock masses under one-dimensional consolidation and finite element implementation]{.pub-title}
+  **Borges, A. B.**, Maghous, S. [XLIII Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2022), Foz do Iguaçu, 2022.]{.pub-venue}
+- [A simplified numerical approach to the evaluation of residual shaft friction induced by concrete curing in drilled shafts on granular soils]{.pub-title}
+  **Borges, A. B.**, Linn, R. V., Schnaid, F., Maghous, S. [*Revista IBRACON de Estruturas e Materiais*, 13(5), e13505, 2020.]{.pub-venue}
 :::
 
 ::: {.section-actions}

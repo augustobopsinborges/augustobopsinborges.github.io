@@ -23,7 +23,10 @@ in which matrix and joints exchange fluid.
 
 The formulation is the subject of my doctoral thesis, supervised by Prof. Samir Maghous
 at [PPGEC / UFRGS](https://www.ufrgs.br/ppgec/), and of a paper currently under review
-(see [Publications](publications.qmd)).
+(see [Publications](publications.qmd)). It grew within the research project
+*Poromechanical approach to the analysis and interpretation of geotechnical tests*, at the
+Center for Applied and Computational Mechanics (CEMACOM) of UFRGS, where I was a research
+fellow from 2017 to 2023.
 
 ## Coupled poromechanics
 
@@ -53,3 +56,13 @@ masses, where the drainage of the rock mass by the excavation induces surface se
 and long-term changes in pore pressure. These comparisons test whether the coefficients
 obtained from field data for the joints and the matrix reproduce the observed behavior
 with both mechanisms acting in a single continuum.
+
+## Earlier work
+
+Before turning to fractured rock, my research dealt with deep foundations. My master's
+thesis, co-advised by Prof. Samir Maghous and Prof. Renato Vaz Linn, proposed a simplified
+numerical approach to the residual shaft friction that develops in drilled shafts as the
+concrete cures in granular soils, published in the *Revista IBRACON de Estruturas e
+Materiais* in 2020. Earlier still, my undergraduate thesis assessed the local materials and
+maintenance practices of unpaved roads in Maquiné, in the coastal range of Rio Grande do
+Sul.

@@ -1,34 +1,66 @@
 ---
 title: "Publications"
-subtitle: "Journal articles, thesis and conference papers."
+subtitle: "Journal articles, conference papers, books, patent and theses."
+toc: true
+toc-location: right
 ---
 
 A BibTeX file with every entry on this page: [publications.bib](files/publications.bib).
+The same list is kept on [Lattes](http://lattes.cnpq.br/7249257151738108) and
+[ORCID](https://orcid.org/0000-0002-0521-3553).
 
 ## Journal articles
 
 ::: {.pub-list}
 - [A micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium]{.pub-title}
   **Borges, A. B.**, Maghous, S. [Submitted to *Computers and Geotechnics*, 2026.]{.pub-venue} [Under review]{.pub-status}
+- [A simplified numerical approach to the evaluation of residual shaft friction induced by concrete curing in drilled shafts on granular soils]{.pub-title}
+  **Borges, A. B.**, Linn, R. V., Schnaid, F., Maghous, S. [*Revista IBRACON de Estruturas e Materiais*, 13(5), e13505, 2020.]{.pub-venue}
+  [[DOI](https://doi.org/10.1590/s1983-41952020000500005)]{.pub-links}
 :::
 
-Companion papers extending the formulation to time-dependent, thermal and chemical
-couplings, to partially saturated media and to elastoplastic constituents are in
-preparation.
+Companion papers extending the double-porosity formulation to time-dependent, thermal
+and chemical couplings, to partially saturated media and to elastoplastic constituents
+are in preparation.
 
-## Thesis
+## Conference papers
+
+::: {.pub-list}
+- [Micromechanical approach to the effective poroelastic behavior of jointed rock masses under one-dimensional consolidation and finite element implementation]{.pub-title}
+  **Borges, A. B.**, Maghous, S. [XLIII Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2022), Foz do Iguaçu, 2022.]{.pub-venue}
+- [Micromechanics approach to the effective permeability of a jointed rock]{.pub-title}
+  **Borges, A. B.**, Maghous, S. [XLI Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2020), Foz do Iguaçu, 2020.]{.pub-venue}
+- [A simplified numerical approach to evaluation of residual shaft friction in drilled shafts]{.pub-title}
+  **Borges, A. B.**, Linn, R. V., Schnaid, F., Maghous, S. [XL Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2019), Natal, 2019.]{.pub-venue}
+- [Avaliação dos materiais de jazida para revestimento primário do município de Maquiné-RS e propostas de otimização]{.pub-title}
+  **Borges, A. B.**, Núñez, W. P., Bressani, L. A., Nervis, L. O. [XIX Congresso Brasileiro de Mecânica dos Solos e Engenharia Geotécnica (COBRAMSEG 2018), Salvador, 2018.]{.pub-venue}
+- [Estudo do comportamento mecânico de um solo argila arenosa estabilizado com casca de ovo galináceo calcinada]{.pub-title}
+  Santos, J. S., Pantoja, B. F., Queiroz, L. C., **Borges, A. B.** [XIX Congresso Brasileiro de Mecânica dos Solos e Engenharia Geotécnica (COBRAMSEG 2018), Salvador, 2018.]{.pub-venue}
+:::
+
+## Books
+
+::: {.pub-list}
+- [Pontes]{.pub-title}
+  Dresch, F., Goto, H., Schmitz, R. J., **Borges, A. B.** [1st ed. Porto Alegre: Sagah, 2018. 198 p.]{.pub-venue}
+- [O livro do Aprovado: um conteúdo por dia para passar no ENEM]{.pub-title}
+  **Borges, A. B.**, Tonolli, C., Alba, D., Machado, E., Bernardi, F., Meister, J., Pereira, L., Pereira, M., Bartelli, M., Paesi, R., Morais, T., Dolgener, V., Schneider, V., Rocha, V. [1st ed. Porto Alegre: Penso, 2018. 144 p.]{.pub-venue}
+:::
+
+## Patent
+
+::: {.pub-list}
+- [Sistema multiplicador da área de coleta de radiação solar e processos de tratamento de fluidos]{.pub-title}
+  Chauque, B. J. M., **Borges, A. B.**, Rott, M. B., Benetti, A. D. [Patent application BR 10 2022 026159 8, INPI (Brazil), filed 21 December 2022.]{.pub-venue}
+:::
+
+## Theses
 
 ::: {.pub-list}
 - [Formulação micromecânica do comportamento poroelástico de meios rochosos fraturados e implementação computacional]{.pub-title}
   **Borges, A. B.** [Doctoral thesis, Graduate Program in Civil Engineering (PPGEC), Federal University of Rio Grande do Sul, Porto Alegre. Advisor: Prof. Samir Maghous. English title: *Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation*.]{.pub-venue} [In preparation]{.pub-status}
+- [Análise dos efeitos das tensões residuais em estacas escavadas: abordagem computacional]{.pub-title}
+  **Borges, A. B.** [Master's thesis, PPGEC / UFRGS, Porto Alegre, 2019. Advisors: Prof. Samir Maghous and Prof. Renato Vaz Linn. English title: *Analysis of the effects of residual stresses on bored piles: a computational approach*.]{.pub-venue}
+- [Análise do método de manutenção e dos materiais de jazida de estradas vicinais com revestimento primário no município de Maquiné e a aplicabilidade de práticas para otimização]{.pub-title}
+  **Borges, A. B.** [Undergraduate thesis, Civil Engineering, UFRGS, Porto Alegre, 2016. Advisor: Prof. Washington Peres Núñez.]{.pub-venue}
 :::
-
-<!--
-## Conference papers
-
-::: {.pub-list}
-- [Title]{.pub-title}
-  Authors. [Conference, city, year.]{.pub-venue}
-  [[PDF](files/xxx.pdf) · [DOI](https://doi.org/xxx)]{.pub-links}
-:::
--->

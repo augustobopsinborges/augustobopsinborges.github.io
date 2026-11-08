@@ -1,31 +1,96 @@
 ---
 title: "About"
-subtitle: "Background, affiliations and contact."
+subtitle: "Background, experience, teaching and contact."
+toc: true
+toc-location: right
 ---
 
-I am a civil engineer and a doctoral candidate at the Graduate Program in Civil
-Engineering ([PPGEC](https://www.ufrgs.br/ppgec/)) of the Federal University of Rio
-Grande do Sul ([UFRGS](https://www.ufrgs.br)), in Porto Alegre, Brazil, where I work
-under the supervision of Prof. Samir Maghous on the micromechanics and poromechanics of
-jointed rock media.
+I am a geotechnical engineer with a theoretical and practical background, specialized in
+soil and rock mechanics, the behavior of fractured rock media, numerical modeling, dam
+engineering and foundation engineering. Since 2023 I have worked in Belo Horizonte, Brazil,
+at [DF+ Engenharia](https://dfmais.eng.br), where I lead the geotechnical design of
+critical mining structures — tailings dams, dam raisings, waste piles, stockpiles and dry
+stacking facilities — across their life cycle, from conceptual studies to executive design
+and closure.
 
-<!-- TODO: professional activity outside the university (company, role), degrees and years. -->
+In parallel, I am a doctoral candidate at the Graduate Program in Civil Engineering
+([PPGEC](https://www.ufrgs.br/ppgec/)) of the Federal University of Rio Grande do Sul
+([UFRGS](https://www.ufrgs.br)), under the supervision of Prof. Samir Maghous, working on
+the micromechanical formulation of the poroelastic behavior of jointed rock media and its
+finite element implementation. My work combines three things I enjoy in equal measure:
+deriving models from the mechanics of the constituents, implementing them in codes that
+others can use, and confronting them with what is measured in the field.
 
-My work combines three things I enjoy in equal measure: deriving models from the
-mechanics of the constituents, implementing them in finite element codes that others
-can use, and confronting them with what is measured in the field.
+## Experience
 
-## Background
+- **Senior Geotechnical Engineer**, [DF+ Engenharia](https://dfmais.eng.br), Belo
+  Horizonte — since October 2023. Lead of geotechnical design for waste and stockpile
+  facilities and dry stacking, in conceptual, basic and executive phases and under
+  diverse climatic settings; design team lead for the downstream raise of a large tailings
+  dam, with emphasis on construction-phase engineering support; design of dry stacking and
+  soil and rock waste facilities for gold and iron mining, for throughputs up to 11 Mt/y
+  and final stack heights above 300 m. Direction of instrumentation and monitoring
+  programs, interpretation of advanced field and laboratory tests, borrow area studies,
+  as-built documentation, technical review of design deliverables and direct interface
+  with clients.
+- **Geotechnical Engineer**, TPF Engenharia, Belo Horizonte — March to October 2023.
+  Safety monitoring of 29 tailings storage facilities as part of the Engineer of Record
+  team: monthly performance reports, regular safety inspection reports, stability
+  analyses, design reviews and consolidation of geotechnical parameters.
+- **Geotechnical Engineer**, Solution IPD, Porto Alegre and Curitiba — March 2022 to
+  March 2023. FEL 2 studies of foundation systems for large pulp and paper plants, slope
+  stability reports for natural and engineered slopes, and foundations for unconventional
+  structures, including massive industrial plants and vibrating equipment (dynamic
+  analysis).
+- **Research Fellow**, UFRGS, Porto Alegre — 2017 to 2023. Researcher at the Center for
+  Applied and Computational Mechanics (CEMACOM) and member of the research project
+  *Poromechanical approach to the analysis and interpretation of geotechnical tests*,
+  coordinated by Prof. Samir Maghous, with CNPq scholarships during the master's and the
+  doctorate.
+- **Geotechnical Engineering Intern**, Luiz Englert Foundation / LAGEOtec, Porto
+  Alegre — 2015 to 2016. Conceptual and basic design of de-watered mining tailings piles
+  and dams, under the supervision of Prof. Luiz Antônio Bressani.
 
-<!-- TODO: fill in -->
+## Education
 
-- Doctoral candidate in Civil Engineering, PPGEC / UFRGS — thesis *Micromechanical
-  formulation of the poroelastic behavior of jointed rock media and computational
-  implementation*, advised by Prof. Samir Maghous.
+- **Ph.D. in Civil Engineering (Geotechnics)**, UFRGS — in progress since 2019, with a
+  leave of absence in 2023–2025. Thesis *Micromechanical formulation of the poroelastic
+  behavior of jointed rock media and computational implementation*, advised by
+  Prof. Samir Maghous. CNPq scholarship.
+- **M.Sc. in Civil Engineering (Geotechnics)**, UFRGS, 2019. Thesis *Analysis of the
+  effects of residual stresses on bored piles: a computational approach*, advised by
+  Prof. Samir Maghous and Prof. Renato Vaz Linn. CNPq scholarship.
+- **B.Sc. in Civil Engineering**, UFRGS, 2016. Undergraduate thesis on the maintenance
+  method and the local materials of unpaved roads in the municipality of Maquiné (RS),
+  advised by Prof. Washington Peres Núñez.
+
+## Teaching and outreach
+
+- Short course *Elements of algebra and tensor analysis for continuum mechanics*
+  (with M. Forcelini, F. P. M. Quevedo and C. B. Aguiar), PPGEC / UFRGS, 2020, with its
+  course material.
+- Co-organizer of the lecture and short-course series for the 50th anniversary of
+  PPGEC, 2020.
+- Physics teacher in community pre-university courses: Centro dos Estudantes
+  Universitários de Engenharia (CEUE), 2016–2021, and Cursinho Popular de Guaíba, 2021.
+- Online courses in physics, vector mechanics, strength of materials and mathematics for
+  Me Salva!, 2014–2018, and co-author of *O livro do Aprovado* (Penso, 2018).
+
+## Service
+
+- Reviewer for the Ibero-Latin American Congress on Computational Methods in Engineering
+  (CILAMCE), 2020, 2021 and 2022.
+- Member of the examining committee of an undergraduate thesis in civil engineering,
+  UFRGS, 2019.
+
+## Languages
+
+Portuguese (native), Spanish (bilingual), English (professional), Italian, Dutch and
+French (conversational).
 
 ## Elsewhere
 
-- [GitHub](https://github.com/augustobopsinborges) — code and documents.
+- [ORCID](https://orcid.org/0000-0002-0521-3553) · [Lattes](http://lattes.cnpq.br/7249257151738108) · [LinkedIn](https://www.linkedin.com/in/augustobopsinborges/) · [GitHub](https://github.com/augustobopsinborges)
 - [Blog](blog/index.qmd) — notes on poromechanics, numerical methods and tools.
 
 ## Contact
