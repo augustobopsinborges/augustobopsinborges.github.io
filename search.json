@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Augusto Bopsin Borges",
     "section": "",
-    "text": "Augusto Bopsin Borges Civil engineer · PhD candidate, PPGEC / UFRGS\nI work on the mechanics of porous and fractured rock: micromechanical models for the poroelastic behavior of jointed rock masses, their coupling with fluid flow, and their implementation in finite element codes for problems at the scale of tunnels and dams. I am a doctoral candidate at the Graduate Program in Civil Engineering (PPGEC) of the Federal University of Rio Grande do Sul (UFRGS), under the supervision of Prof. Samir Maghous.\n\nResearch Publications Software Blog\n\n\nGitHub Email"
+    "text": "Augusto Bopsin Borges Geotechnical engineer · M.Sc. · PhD candidate, PPGEC / UFRGS\nI am a geotechnical engineer working at the meeting point of practice and research. In practice, I lead the geotechnical design of critical mining structures — tailings dams, waste piles, stockpiles and dry stacking facilities — as a senior engineer at DF+ Engenharia, in Belo Horizonte. In research, I build micromechanical models for the poroelastic behavior of jointed rock masses and implement them in finite element codes, as a doctoral candidate at the Graduate Program in Civil Engineering (PPGEC) of the Federal University of Rio Grande do Sul (UFRGS), under the supervision of Prof. Samir Maghous.\n\nResearch Publications Software Blog\n\n\nORCID Lattes LinkedIn GitHub Email"
   },
   {
     "objectID": "index.html#research-interests",
@@ -12,6 +12,13 @@
     "title": "Augusto Bopsin Borges",
     "section": "Research interests",
     "text": "Research interests\n\n\nMicromechanics of jointed rock\nHomogenization of rock masses crossed by families of joints: long joints as interfaces, short joints through Eshelby-based schemes, and the resulting double-porosity poroelastic coefficients.\n\n\nCoupled poromechanics\nExtensions of the double-porosity formulation to time-dependent, thermal and chemical couplings, to partially saturated media and to elastoplastic constituents.\n\n\nFinite element computation\nThree-dimensional finite element codes for Biot poroelasticity with one or two porous systems, from the variational formulation to the solver and the pre- and post-processing chain.\n\n\nField-scale applications\nDeep tunnels and reservoirs in fractured rock masses, where drainage, settlement and pressure changes are governed by the interplay between joints and matrix.\n\n\n\nMore on the research →"
+  },
+  {
+    "objectID": "index.html#engineering-practice",
+    "href": "index.html#engineering-practice",
+    "title": "Augusto Bopsin Borges",
+    "section": "Engineering practice",
+    "text": "Engineering practice\n\n\nTailings storage facilities\nDesign, raising and safety of tailings dams, from conceptual to executive phases; monitoring, instrumentation and performance reporting as part of Engineer of Record teams.\n\n\nWaste piles and dry stacking\nSoil and rock waste facilities, stockpiles and filtered tailings stacks for gold and iron mining, for throughputs up to 11 Mt/y and stack heights above 300 m.\n\n\nFoundations and slopes\nFoundation systems for large industrial plants, including vibrating structures; stability of natural and engineered slopes; seepage and geotechnical risk assessment.\n\n\nComputational geotechnics\nFinite element and limit equilibrium modeling, constitutive modeling and multivariate analysis of geotechnical data, in Python and Fortran.\n\n\n\nBackground and experience →"
   },
   {
     "objectID": "index.html#from-the-blog",
@@ -25,7 +32,7 @@
     "href": "index.html#recent-publications",
     "title": "Augusto Bopsin Borges",
     "section": "Recent publications",
-    "text": "Recent publications\n\n\nA micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium Borges, A. B., Maghous, S. Submitted to Computers and Geotechnics, 2026. Under review\nMicromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation Borges, A. B. Doctoral thesis, PPGEC / UFRGS, Porto Alegre. Advisor: Prof. Samir Maghous. In preparation\n\n\n\nAll publications →"
+    "text": "Recent publications\n\n\nA micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium Borges, A. B., Maghous, S. Submitted to Computers and Geotechnics, 2026. Under review\nMicromechanical approach to the effective poroelastic behavior of jointed rock masses under one-dimensional consolidation and finite element implementation Borges, A. B., Maghous, S. XLIII Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2022), Foz do Iguaçu, 2022.\nA simplified numerical approach to the evaluation of residual shaft friction induced by concrete curing in drilled shafts on granular soils Borges, A. B., Linn, R. V., Schnaid, F., Maghous, S. Revista IBRACON de Estruturas e Materiais, 13(5), e13505, 2020.\n\n\n\nAll publications →"
   },
   {
     "objectID": "index.html#software",
@@ -39,42 +46,91 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "A BibTeX file with every entry on this page: publications.bib."
+    "text": "A BibTeX file with every entry on this page: publications.bib. The same list is kept on Lattes and ORCID."
   },
   {
     "objectID": "publications.html#journal-articles",
     "href": "publications.html#journal-articles",
     "title": "Publications",
     "section": "Journal articles",
-    "text": "Journal articles\n\n\nA micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium Borges, A. B., Maghous, S. Submitted to Computers and Geotechnics, 2026. Under review\n\n\nCompanion papers extending the formulation to time-dependent, thermal and chemical couplings, to partially saturated media and to elastoplastic constituents are in preparation."
+    "text": "Journal articles\n\n\nA micromechanics-based approach to the poroelastic behavior of a double-porosity jointed rock medium Borges, A. B., Maghous, S. Submitted to Computers and Geotechnics, 2026. Under review\nA simplified numerical approach to the evaluation of residual shaft friction induced by concrete curing in drilled shafts on granular soils Borges, A. B., Linn, R. V., Schnaid, F., Maghous, S. Revista IBRACON de Estruturas e Materiais, 13(5), e13505, 2020. DOI\n\n\nCompanion papers extending the double-porosity formulation to time-dependent, thermal and chemical couplings, to partially saturated media and to elastoplastic constituents are in preparation."
   },
   {
-    "objectID": "publications.html#thesis",
-    "href": "publications.html#thesis",
+    "objectID": "publications.html#conference-papers",
+    "href": "publications.html#conference-papers",
     "title": "Publications",
-    "section": "Thesis",
-    "text": "Thesis\n\n\nFormulação micromecânica do comportamento poroelástico de meios rochosos fraturados e implementação computacional Borges, A. B. Doctoral thesis, Graduate Program in Civil Engineering (PPGEC), Federal University of Rio Grande do Sul, Porto Alegre. Advisor: Prof. Samir Maghous. English title: Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation. In preparation"
+    "section": "Conference papers",
+    "text": "Conference papers\n\n\nMicromechanical approach to the effective poroelastic behavior of jointed rock masses under one-dimensional consolidation and finite element implementation Borges, A. B., Maghous, S. XLIII Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2022), Foz do Iguaçu, 2022.\nMicromechanics approach to the effective permeability of a jointed rock Borges, A. B., Maghous, S. XLI Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2020), Foz do Iguaçu, 2020.\nA simplified numerical approach to evaluation of residual shaft friction in drilled shafts Borges, A. B., Linn, R. V., Schnaid, F., Maghous, S. XL Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2019), Natal, 2019.\nAvaliação dos materiais de jazida para revestimento primário do município de Maquiné-RS e propostas de otimização Borges, A. B., Núñez, W. P., Bressani, L. A., Nervis, L. O. XIX Congresso Brasileiro de Mecânica dos Solos e Engenharia Geotécnica (COBRAMSEG 2018), Salvador, 2018.\nEstudo do comportamento mecânico de um solo argila arenosa estabilizado com casca de ovo galináceo calcinada Santos, J. S., Pantoja, B. F., Queiroz, L. C., Borges, A. B. XIX Congresso Brasileiro de Mecânica dos Solos e Engenharia Geotécnica (COBRAMSEG 2018), Salvador, 2018."
+  },
+  {
+    "objectID": "publications.html#books",
+    "href": "publications.html#books",
+    "title": "Publications",
+    "section": "Books",
+    "text": "Books\n\n\nPontes Dresch, F., Goto, H., Schmitz, R. J., Borges, A. B. 1st ed. Porto Alegre: Sagah, 2018. 198 p.\nO livro do Aprovado: um conteúdo por dia para passar no ENEM Borges, A. B., Tonolli, C., Alba, D., Machado, E., Bernardi, F., Meister, J., Pereira, L., Pereira, M., Bartelli, M., Paesi, R., Morais, T., Dolgener, V., Schneider, V., Rocha, V. 1st ed. Porto Alegre: Penso, 2018. 144 p."
+  },
+  {
+    "objectID": "publications.html#patent",
+    "href": "publications.html#patent",
+    "title": "Publications",
+    "section": "Patent",
+    "text": "Patent\n\n\nSistema multiplicador da área de coleta de radiação solar e processos de tratamento de fluidos Chauque, B. J. M., Borges, A. B., Rott, M. B., Benetti, A. D. Patent application BR 10 2022 026159 8, INPI (Brazil), filed 21 December 2022."
+  },
+  {
+    "objectID": "publications.html#theses",
+    "href": "publications.html#theses",
+    "title": "Publications",
+    "section": "Theses",
+    "text": "Theses\n\n\nFormulação micromecânica do comportamento poroelástico de meios rochosos fraturados e implementação computacional Borges, A. B. Doctoral thesis, Graduate Program in Civil Engineering (PPGEC), Federal University of Rio Grande do Sul, Porto Alegre. Advisor: Prof. Samir Maghous. English title: Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation. In preparation\nAnálise dos efeitos das tensões residuais em estacas escavadas: abordagem computacional Borges, A. B. Master’s thesis, PPGEC / UFRGS, Porto Alegre, 2019. Advisors: Prof. Samir Maghous and Prof. Renato Vaz Linn. English title: Analysis of the effects of residual stresses on bored piles: a computational approach.\nAnálise do método de manutenção e dos materiais de jazida de estradas vicinais com revestimento primário no município de Maquiné e a aplicabilidade de práticas para otimização Borges, A. B. Undergraduate thesis, Civil Engineering, UFRGS, Porto Alegre, 2016. Advisor: Prof. Washington Peres Núñez."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a civil engineer and a doctoral candidate at the Graduate Program in Civil Engineering (PPGEC) of the Federal University of Rio Grande do Sul (UFRGS), in Porto Alegre, Brazil, where I work under the supervision of Prof. Samir Maghous on the micromechanics and poromechanics of jointed rock media.\nMy work combines three things I enjoy in equal measure: deriving models from the mechanics of the constituents, implementing them in finite element codes that others can use, and confronting them with what is measured in the field."
+    "text": "I am a geotechnical engineer with a theoretical and practical background, specialized in soil and rock mechanics, the behavior of fractured rock media, numerical modeling, dam engineering and foundation engineering. Since 2023 I have worked in Belo Horizonte, Brazil, at DF+ Engenharia, where I lead the geotechnical design of critical mining structures — tailings dams, dam raisings, waste piles, stockpiles and dry stacking facilities — across their life cycle, from conceptual studies to executive design and closure.\nIn parallel, I am a doctoral candidate at the Graduate Program in Civil Engineering (PPGEC) of the Federal University of Rio Grande do Sul (UFRGS), under the supervision of Prof. Samir Maghous, working on the micromechanical formulation of the poroelastic behavior of jointed rock media and its finite element implementation. My work combines three things I enjoy in equal measure: deriving models from the mechanics of the constituents, implementing them in codes that others can use, and confronting them with what is measured in the field."
   },
   {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
     "title": "About",
-    "section": "Background",
-    "text": "Background\n\n\nDoctoral candidate in Civil Engineering, PPGEC / UFRGS — thesis Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation, advised by Prof. Samir Maghous."
+    "section": "Experience",
+    "text": "Experience\n\nSenior Geotechnical Engineer, DF+ Engenharia, Belo Horizonte — since October 2023. Lead of geotechnical design for waste and stockpile facilities and dry stacking, in conceptual, basic and executive phases and under diverse climatic settings; design team lead for the downstream raise of a large tailings dam, with emphasis on construction-phase engineering support; design of dry stacking and soil and rock waste facilities for gold and iron mining, for throughputs up to 11 Mt/y and final stack heights above 300 m. Direction of instrumentation and monitoring programs, interpretation of advanced field and laboratory tests, borrow area studies, as-built documentation, technical review of design deliverables and direct interface with clients.\nGeotechnical Engineer, TPF Engenharia, Belo Horizonte — March to October 2023. Safety monitoring of 29 tailings storage facilities as part of the Engineer of Record team: monthly performance reports, regular safety inspection reports, stability analyses, design reviews and consolidation of geotechnical parameters.\nGeotechnical Engineer, Solution IPD, Porto Alegre and Curitiba — March 2022 to March 2023. FEL 2 studies of foundation systems for large pulp and paper plants, slope stability reports for natural and engineered slopes, and foundations for unconventional structures, including massive industrial plants and vibrating equipment (dynamic analysis).\nResearch Fellow, UFRGS, Porto Alegre — 2017 to 2023. Researcher at the Center for Applied and Computational Mechanics (CEMACOM) and member of the research project Poromechanical approach to the analysis and interpretation of geotechnical tests, coordinated by Prof. Samir Maghous, with CNPq scholarships during the master’s and the doctorate.\nGeotechnical Engineering Intern, Luiz Englert Foundation / LAGEOtec, Porto Alegre — 2015 to 2016. Conceptual and basic design of de-watered mining tailings piles and dams, under the supervision of Prof. Luiz Antônio Bressani."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Civil Engineering (Geotechnics), UFRGS — in progress since 2019, with a leave of absence in 2023–2025. Thesis Micromechanical formulation of the poroelastic behavior of jointed rock media and computational implementation, advised by Prof. Samir Maghous. CNPq scholarship.\nM.Sc. in Civil Engineering (Geotechnics), UFRGS, 2019. Thesis Analysis of the effects of residual stresses on bored piles: a computational approach, advised by Prof. Samir Maghous and Prof. Renato Vaz Linn. CNPq scholarship.\nB.Sc. in Civil Engineering, UFRGS, 2016. Undergraduate thesis on the maintenance method and the local materials of unpaved roads in the municipality of Maquiné (RS), advised by Prof. Washington Peres Núñez."
+  },
+  {
+    "objectID": "about.html#teaching-and-outreach",
+    "href": "about.html#teaching-and-outreach",
+    "title": "About",
+    "section": "Teaching and outreach",
+    "text": "Teaching and outreach\n\nShort course Elements of algebra and tensor analysis for continuum mechanics (with M. Forcelini, F. P. M. Quevedo and C. B. Aguiar), PPGEC / UFRGS, 2020, with its course material.\nCo-organizer of the lecture and short-course series for the 50th anniversary of PPGEC, 2020.\nPhysics teacher in community pre-university courses: Centro dos Estudantes Universitários de Engenharia (CEUE), 2016–2021, and Cursinho Popular de Guaíba, 2021.\nOnline courses in physics, vector mechanics, strength of materials and mathematics for Me Salva!, 2014–2018, and co-author of O livro do Aprovado (Penso, 2018)."
+  },
+  {
+    "objectID": "about.html#service",
+    "href": "about.html#service",
+    "title": "About",
+    "section": "Service",
+    "text": "Service\n\nReviewer for the Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE), 2020, 2021 and 2022.\nMember of the examining committee of an undergraduate thesis in civil engineering, UFRGS, 2019."
+  },
+  {
+    "objectID": "about.html#languages",
+    "href": "about.html#languages",
+    "title": "About",
+    "section": "Languages",
+    "text": "Languages\nPortuguese (native), Spanish (bilingual), English (professional), Italian, Dutch and French (conversational)."
   },
   {
     "objectID": "about.html#elsewhere",
     "href": "about.html#elsewhere",
     "title": "About",
     "section": "Elsewhere",
-    "text": "Elsewhere\n\nGitHub — code and documents.\nBlog — notes on poromechanics, numerical methods and tools."
+    "text": "Elsewhere\n\nORCID · Lattes · LinkedIn · GitHub\nBlog — notes on poromechanics, numerical methods and tools."
   },
   {
     "objectID": "about.html#contact",
@@ -123,7 +179,7 @@
     "href": "blog/posts/2026-11-08-hello/index.html",
     "title": "Why this site",
     "section": "",
-    "text": "This site has two halves.\nThe first is the set of pages you reach from the top bar — research, publications, software. They describe what I work on and change slowly, when a paper is accepted or a program gains a feature.\nThe second is this blog. It is for the things that do not fit in a paper but are worth writing down once, carefully: a derivation that every textbook skips a step of, a numerical detail that cost an afternoon, a comparison between two ways of doing the same computation. The model is the kind of post Sébastien Brisard writes on his blog: short, self-contained, with the equations and the code in plain sight.\nPosts are written in Quarto, so mathematics renders with KaTeX and code blocks can be executed when the page is built. Everything is in the repository; corrections are welcome as issues or pull requests.\n\n\n\nReuseCC BY 4.0"
+    "text": "This site has two halves.\nThe first is the set of pages you reach from the top bar — research, publications, software. They describe what I work on and change slowly, when a paper is accepted or a program gains a feature.\nThe second is this blog. It is for the things that do not fit in a paper but are worth writing down once, carefully: a derivation that every textbook skips a step of, a numerical detail that cost an afternoon, a comparison between two ways of doing the same computation. The model is of short posts, self-contained, with the equations and the code in plain sight.\nPosts are written in Quarto, so mathematics renders with KaTeX and code blocks can be executed when the page is built. Everything is in the repository; corrections are welcome as issues or pull requests.\n\n\n\nReuseCC BY 4.0"
   },
   {
     "objectID": "blog/index.html",
@@ -144,7 +200,7 @@
     "href": "research.html#micromechanics-of-jointed-rock",
     "title": "Research",
     "section": "Micromechanics of jointed rock",
-    "text": "Micromechanics of jointed rock\nThe starting point is a homogenization approach. Long joints are treated as interfaces whose normal and tangential stiffnesses, spacing and orientation enter the effective properties of the rock mass; short joints are handled with Eshelby-based schemes of the Mori–Tanaka type. The result is a set of poroelastic coefficients — drained stiffness, two Biot tensors, two Biot moduli and a coupling modulus — for a double-porosity medium in which matrix and joints exchange fluid.\nThe formulation is the subject of my doctoral thesis, supervised by Prof. Samir Maghous at PPGEC / UFRGS, and of a paper currently under review (see Publications)."
+    "text": "Micromechanics of jointed rock\nThe starting point is a homogenization approach. Long joints are treated as interfaces whose normal and tangential stiffnesses, spacing and orientation enter the effective properties of the rock mass; short joints are handled with Eshelby-based schemes of the Mori–Tanaka type. The result is a set of poroelastic coefficients — drained stiffness, two Biot tensors, two Biot moduli and a coupling modulus — for a double-porosity medium in which matrix and joints exchange fluid.\nThe formulation is the subject of my doctoral thesis, supervised by Prof. Samir Maghous at PPGEC / UFRGS, and of a paper currently under review (see Publications). It grew within the research project Poromechanical approach to the analysis and interpretation of geotechnical tests, at the Center for Applied and Computational Mechanics (CEMACOM) of UFRGS, where I was a research fellow from 2017 to 2023."
   },
   {
     "objectID": "research.html#coupled-poromechanics",
@@ -166,6 +222,13 @@
     "title": "Research",
     "section": "Field-scale applications",
     "text": "Field-scale applications\nThe models are confronted with documented case studies of deep tunnels in fractured rock masses, where the drainage of the rock mass by the excavation induces surface settlements and long-term changes in pore pressure. These comparisons test whether the coefficients obtained from field data for the joints and the matrix reproduce the observed behavior with both mechanisms acting in a single continuum."
+  },
+  {
+    "objectID": "research.html#earlier-work",
+    "href": "research.html#earlier-work",
+    "title": "Research",
+    "section": "Earlier work",
+    "text": "Earlier work\nBefore turning to fractured rock, my research dealt with deep foundations. My master’s thesis, co-advised by Prof. Samir Maghous and Prof. Renato Vaz Linn, proposed a simplified numerical approach to the residual shaft friction that develops in drilled shafts as the concrete cures in granular soils, published in the Revista IBRACON de Estruturas e Materiais in 2020. Earlier still, my undergraduate thesis assessed the local materials and maintenance practices of unpaved roads in Maquiné, in the coastal range of Rio Grande do Sul."
   },
   {
     "objectID": "software.html",
