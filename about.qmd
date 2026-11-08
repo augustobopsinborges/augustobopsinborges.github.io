@@ -80,8 +80,6 @@ others can use, and confronting them with what is measured in the field.
 
 - Reviewer for the Ibero-Latin American Congress on Computational Methods in Engineering
   (CILAMCE), 2020, 2021 and 2022.
-- Member of the examining committee of an undergraduate thesis in civil engineering,
-  UFRGS, 2019.
 
 ## Languages
 
@@ -99,8 +97,5 @@ French (conversational).
 
 ## About this site
 
-Built with [Quarto](https://quarto.org) and hosted on GitHub Pages. Its layout is
-inspired by the sites of
-[Jean-François Barthélémy](https://jfbarthelemy.github.io) and
-[Sébastien Brisard](https://sbrisard.github.io). The source is
+Built with [Quarto](https://quarto.org) and hosted on GitHub Pages. The source is
 [on GitHub](https://github.com/augustobopsinborges/augustobopsinborges.github.io).
