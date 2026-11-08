@@ -1,10 +1,7 @@
 # augustobopsinborges.github.io
 
 Personal and professional website of Augusto Bopsin Borges, built with
-[Quarto](https://quarto.org): research pages in the spirit of
-[jfbarthelemy.github.io](https://github.com/jfbarthelemy/jfbarthelemy.github.io),
-with a blog listing in the spirit of
-[sbrisard.github.io](https://github.com/sbrisard/sbrisard.github.io).
+[Quarto](https://quarto.org).
 
 ## Layout
 
@@ -17,7 +14,7 @@ with a blog listing in the spirit of
 | `blog/posts/<date>-<slug>/index.qmd` | one folder per post |
 | `_theme/` | design tokens and styles (`base.scss` shared, `light.scss`, `dark.scss`), fonts (`head.html`) |
 | `files/` | downloadable files (BibTeX, PDFs) |
-| `images/` | favicon and monogram |
+| `images/` | favicon and portrait |
 | `.github/workflows/publish.yml` | renders on every push to `main` and publishes to the `gh-pages` branch |
 
 ## Writing
