@@ -40,8 +40,8 @@ is a uniform solution of the equilibrium problem in the solid phase. Everything
 contracts uniformly:
 
 $$
-\varepsilon_v = -\frac{p}{K_s}, \qquad
-\varphi - \varphi_0 = \varphi_0\,\varepsilon_v = -\varphi_0\,\frac{p}{K_s},
+\varepsilon_v = -\frac{p}{k_s}, \qquad
+\varphi - \varphi_0 = \varphi_0\,\varepsilon_v = -\varphi_0\,\frac{p}{k_s},
 $$
 
 the second relation because a uniform dilatation scales every volume, pores included,
@@ -50,17 +50,17 @@ by the same factor. The macroscopic mean stress is $\sigma_m = -p$.
 Insert these into @eq-state. The first equation gives
 
 $$
--p = -\frac{K}{K_s}\,p - b\,p
+-p = -\frac{K}{k_s}\,p - b\,p
 \quad\Longrightarrow\quad
-b = 1 - \frac{K}{K_s},
+b = 1 - \frac{K}{k_s},
 $$
 
 and the second,
 
 $$
--\varphi_0\,\frac{p}{K_s} = -b\,\frac{p}{K_s} + \frac{p}{N}
+-\varphi_0\,\frac{p}{k_s} = -b\,\frac{p}{k_s} + \frac{p}{N}
 \quad\Longrightarrow\quad
-\frac{1}{N} = \frac{b - \varphi_0}{K_s}.
+\frac{1}{N} = \frac{b - \varphi_0}{k_s}.
 $$
 
 That is all. Both poroelastic constants follow from the drained modulus, the solid
@@ -68,14 +68,14 @@ modulus and the porosity.
 
 ## What the result says
 
-- **Soils.** The grains are much stiffer than the skeleton, $K \ll K_s$, so $b \to 1$:
+- **Soils.** The grains are much stiffer than the skeleton, $K \ll k_s$, so $b \to 1$:
   Terzaghi's effective stress $\sigma_m + p$ is recovered. This is why soil mechanics
   can ignore $b$ altogether.
 - **Rocks.** The skeleton of a low-porosity rock is not much softer than its minerals,
   and $b$ sits well below one (around $0.45$ for Westerly granite, for instance). The
   pore pressure then carries less weight than Terzaghi's rule predicts, which matters
   for the stress state around a deep tunnel or a well.
-- **Bounds.** Since $K \le K_s$ and $b \ge \varphi_0$ (the skeleton cannot be stiffer
+- **Bounds.** Since $K \le k_s$ and $b \ge \varphi_0$ (the skeleton cannot be stiffer
   than its solid, and $1/N$ cannot be negative), $\varphi_0 \le b \le 1$.
 
 In a jointed rock mass there may be considered two porous systems (the pores of the matrix and the
